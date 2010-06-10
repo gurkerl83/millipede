@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config
+END
+COConfigurationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config/COConfigurationListener.java
+END
+StringIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config/StringIterator.java
+END
+StringList.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config/StringList.java
+END
+COConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config/COConfigurationManager.java
+END
+ParameterListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/config/ParameterListener.java
+END

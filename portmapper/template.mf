@@ -1,0 +1,6 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.portmapper
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0
+Export-Package: org.chris.portmapper.model;version="1.0.0";uses:="org.chris.portmapper",
+ org.chris.portmapper.router;version="1.0.0";uses:="org.chris.portmapper.model"

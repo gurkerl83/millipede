@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Export-Package: org.debug;version="1.0.0";uses:="org.osgi.framework"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: debug
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.debug.Activator
+Bundle-SymbolicName: org.gudy.azureusAPI
+Import-Package: org.osgi.framework
+

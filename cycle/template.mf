@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.cycle
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0
+Export-Package: org.gudy.azureus2.plugins.messaging;version="0.0.1",
+ org.torrent.internal.data;version="0.0.1";uses:="org.torrent.internal.util"
+

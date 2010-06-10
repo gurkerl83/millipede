@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.messagemanager
+Bundle-Name: ${project.name}
+Bundle-Activator: org.gudy.azureus2.MessageActivator
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

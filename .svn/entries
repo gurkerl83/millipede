@@ -1,0 +1,117 @@
+10
+
+dir
+22
+https://millipedeme.googlecode.com/svn/trunk/millipede
+https://millipedeme.googlecode.com/svn
+
+
+
+2010-01-28T12:06:52.754601Z
+22
+gurkerl83
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+e8c43e84-0a8b-11df-8612-a59a22e72e9b
+
+messagemanager
+dir
+
+chat
+dir
+
+azureusImpl
+dir
+
+problemresolver
+dir
+
+src
+dir
+
+azureusAPI
+dir
+
+provision
+dir
+
+portmapper
+dir
+
+pom.xml
+file
+
+
+
+
+2010-01-28T11:51:07.082564Z
+655c1510ff298a1ea0f6cb66e49cbcf6
+2010-01-28T12:06:52.754601Z
+22
+gurkerl83
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2283
+
+globalmanager
+dir
+
+mainline
+dir
+
+torrent
+dir
+
+cycle
+dir
+
+META-INF
+dir
+
+
+
+delete
+
+downloadmanager
+dir
+
+mldht
+dir
+
+merapi
+dir
+
+poms
+dir
+

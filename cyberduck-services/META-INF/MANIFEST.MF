@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Export-Package: ch.cyberduck.core.io.service;version="1.0.0",ch.cyberd
+ uck.core.service;version="1.0.0";uses:="ch.cyberduck.core",ch.cyberdu
+ ck.handler;version="1.0.0",ch.cyberduck.service;version="1.0.0";uses:
+ ="ch.cyberduck,ch.cyberduck.core"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Import-Package: ch.cyberduck,ch.cyberduck.core,ch.cyberduck.core.i18n
+Bundle-SymbolicName: cyberduck-services
+

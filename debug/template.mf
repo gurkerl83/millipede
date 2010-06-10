@@ -1,0 +1,5 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: ${project.name}
+Bundle-SymbolicName: org.gudy.azureusAPI
+Bundle-Version: 1.0.0
+Bundle-Activator: org.debug.Activator

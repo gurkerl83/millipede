@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: ch.cyberduck.core;version="1.0.0";uses:="ch.cyberduck.
+ core.io.service,ch.cyberduck.core.serializer,ch.cyberduck.core.servic
+ e,ch.cyberduck.core.threading",ch.cyberduck.core.i18n;version="1.0.0"
+ ;uses:="ch.cyberduck.core",ch.cyberduck.core.io;version="1.0.0";uses:
+ ="ch.cyberduck.core.io.service",ch.cyberduck.core.serializer;version=
+ "1.0.0";uses:="ch.cyberduck.core",ch.cyberduck.core.threading;version
+ ="1.0.0";uses:="ch.cyberduck.core"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Import-Package: ch.cyberduck.core.io.service,ch.cyberduck.core.service
+ ,javax.net.ssl,org.apache.commons.io,org.apache.commons.lang,org.apac
+ he.log4j
+Bundle-SymbolicName: cyberduck-api
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/util
+END
+HashCodeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/util/HashCodeUtils.java
+END
+Java15Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/util/Java15Utils.java
+END
+CopyOnWriteList.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/util/CopyOnWriteList.java
+END
+CopyOnWriteSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/util/CopyOnWriteSet.java
+END

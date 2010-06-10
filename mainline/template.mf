@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.mainline
+Bundle-Name: ${project.name}
+Bundle-Activator: org.gudy.azureus2.MainlineActivator
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

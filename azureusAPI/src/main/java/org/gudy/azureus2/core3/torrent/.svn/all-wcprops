@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent
+END
+TOTorrentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentException.java
+END
+TOTorrent.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrent.java
+END
+TOTorrentCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentCreator.java
+END
+TOTorrentFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentFile.java
+END
+TOTorrentFileImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentFileImpl.java
+END
+TOTorrentAnnounceURLSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentAnnounceURLSet.java
+END
+TOTorrentAnnounceURLGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentAnnounceURLGroup.java
+END
+TOTorrentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentFactory.java
+END
+TOTorrentProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/torrent/TOTorrentProgressListener.java
+END

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Export-Package: org.opendedup.collections;version="1.0.0";uses:="org.o
+ pendedup.sdfs.filestore",org.opendedup.collections.threads;version="1
+ .0.0";uses:="org.opendedup.collections",org.opendedup.java6;version="
+ 1.0.0",org.opendedup.mtools;version="1.0.0",org.opendedup.sdfs;versio
+ n="1.0.0";uses:="javax.xml.parsers,org.apache.commons.cli",org.opende
+ dup.sdfs.filestore;version="1.0.0";uses:="com.reardencommerce.kernel.
+ collections.shared.evictable,org.opendedup.collections,org.opendedup.
+ sdfs.io",org.opendedup.sdfs.filestore.gc;version="1.0.0";uses:="org.q
+ uartz",org.opendedup.sdfs.io;version="1.0.0";uses:="com.reardencommer
+ ce.kernel.collections.shared.evictable,javax.xml.parsers,org.opendedu
+ p.sdfs.monitor,org.opendedup.util,org.w3c.dom",org.opendedup.sdfs.mon
+ itor;version="1.0.0",org.opendedup.sdfs.network;version="1.0.0";uses:
+ ="org.opendedup.sdfs.servers",org.opendedup.sdfs.servers;version="1.0
+ .0";uses:="com.reardencommerce.kernel.collections.shared.evictable,or
+ g.opendedup.collections,org.opendedup.sdfs.filestore,org.opendedup.sd
+ fs.network",org.opendedup.util;version="1.0.0";uses:="org.opendedup.s
+ dfs.io"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Import-Package: com.eaio.uuid,com.reardencommerce.kernel.collections.s
+ hared.evictable,gnu.trove.iterator,gnu.trove.set.hash,javax.xml.parse
+ rs,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.st
+ ream,org.apache.commons.cli,org.apache.commons.io,org.bouncycastle.jc
+ e.provider,org.bouncycastle.util,org.jets3t.service,org.jets3t.servic
+ e.impl.rest.httpclient,org.jets3t.service.model,org.jets3t.service.se
+ curity,org.quartz,org.quartz.impl,org.w3c.dom,org.xml.sax
+Bundle-SymbolicName: opendedup
+

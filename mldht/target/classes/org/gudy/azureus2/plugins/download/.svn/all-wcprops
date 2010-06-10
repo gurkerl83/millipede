@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download
+END
+DownloadAttributeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadAttributeListener.java
+END
+DownloadScrapeResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadScrapeResult.java
+END
+DownloadException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadException.java
+END
+DownloadManagerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadManagerListener.java
+END
+DownloadAnnounceResultPeer.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadAnnounceResultPeer.java
+END
+DownloadTrackerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadTrackerListener.java
+END
+DownloadAnnounceResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadAnnounceResult.java
+END
+DownloadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/org/gudy/azureus2/plugins/download/DownloadListener.java
+END

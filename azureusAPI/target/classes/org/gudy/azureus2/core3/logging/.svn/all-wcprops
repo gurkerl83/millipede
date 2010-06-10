@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging
+END
+LogRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/LogRelation.java
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/Logger.java
+END
+LogRelationUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/LogRelationUtils.java
+END
+LogIDs.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/LogIDs.java
+END
+ILogEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/ILogEventListener.java
+END
+LogEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/LogEvent.java
+END
+ILogAlertListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/ILogAlertListener.java
+END
+LogAlert.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/logging/LogAlert.java
+END

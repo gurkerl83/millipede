@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<options:CycleExplorerData xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:options="options.xmi">
+  <options interactive="false" level="-1" showScope="InDiagram" properties="ModelFrozen=true;wireOptions=4;Product=eDepend;ComputedContent=true;dependencyFilter=Soyatec::Import,;displayOptions=1"/>
+  <cycleSets>
+    <groups name="Cycle-1  (2 elements)" size="2">
+      <ids>ch.cyberduck/BrowserController-Soyatec::Import->ch.cyberduck/BrowserTableDataSource</ids>
+      <ids>ch.cyberduck/BrowserTableDataSource-Soyatec::Import->ch.cyberduck/BrowserController</ids>
+    </groups>
+    <groups name="Cycle-3  (2 elements)" size="2">
+      <ids>ch.cyberduck/BrowserListViewModel-Soyatec::Import->ch.cyberduck/BrowserController</ids>
+      <ids>ch.cyberduck/BrowserController-Soyatec::Import->ch.cyberduck/BrowserListViewModel</ids>
+    </groups>
+  </cycleSets>
+  <cycleSets>
+    <groups name="Cycle-2  (2 elements)" size="2">
+      <ids>ch.cyberduck/TransferPromptController-Soyatec::Import->ch.cyberduck/TransferPromptModel</ids>
+      <ids>ch.cyberduck/TransferPromptModel-Soyatec::Import->ch.cyberduck/TransferPromptController</ids>
+    </groups>
+  </cycleSets>
+</options:CycleExplorerData>

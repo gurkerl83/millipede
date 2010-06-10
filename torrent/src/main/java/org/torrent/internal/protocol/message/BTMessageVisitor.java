@@ -1,0 +1,34 @@
+package org.torrent.internal.protocol.message;
+
+
+public interface BTMessageVisitor {
+
+	void visitKeepAlive(KeepAlive keepAlive);
+
+	void visitPiece(Piece piece);
+
+	void visitPort(Port port);
+
+	void visitRequest(Request request);
+
+	void visitUnChoke(UnChoke unChoke);
+
+	void visitBitField(BitField bitField);
+
+	void visitChoke(Choke choke);
+
+	void visitCancel(Cancel cancel);
+
+	void visitHandShakeB(HandShakeB handShakeB);
+
+	void visitHandShakeA(HandShakeA handShakeA);
+
+	void visitHave(Have have);
+
+	void visitInterested(Interested interested);
+
+	void visitNotInterested(NotInterested notInterested);
+
+	void visitRawMessage(RawMessage rawMessage);
+	
+}

@@ -1,0 +1,23 @@
+generator merapi -> osgi
+listens for merapi based messages, 
+converts to OSGi events and 
+distributes them into the OSGi Backend
+
+handler osgi -> merapi
+listens for osgi based Events,
+converts to Merapi Messages and
+distributes them to the Merapi Bridge
+
+important: there is a eventdistribution bundle which
+tracks EventAdmin and let some place for Configuation the
+Event flow.
+
+Fututre: Merapi Bridge for other FrontEnd Platforms
+such as Silverlight, JavaFx...
+
+Important: org.millipede.router.Actiavtor which should initiating Communication
+(EventGenerator, DLControlEventHandler) is not working properly.
+Reason: not identified -> OSGi EventAdmin stop immediately when Flex request arrieves
+maybee because a Thread of Merapi homes to the merapi bundle.
+
+Workaround: Initiation in org.merapi.BridgeActivator

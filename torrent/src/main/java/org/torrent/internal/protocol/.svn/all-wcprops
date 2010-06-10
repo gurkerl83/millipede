@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol
+END
+BTMessageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BTMessageReceiver.java
+END
+BTTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BTTransform.java
+END
+BittorrentDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BittorrentDecoder.java
+END
+BTTransformImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BTTransformImpl.java
+END
+BTProtocolException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BTProtocolException.java
+END
+BTContentObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BTContentObserver.java
+END
+BittorrentMessageDecodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/protocol/BittorrentMessageDecodingException.java
+END

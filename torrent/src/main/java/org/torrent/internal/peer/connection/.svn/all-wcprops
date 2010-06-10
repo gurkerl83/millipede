@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection
+END
+BTMessageReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTMessageReceiver.java
+END
+HandShakeProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/HandShakeProvider.java
+END
+AbstractPendingRequestsHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/AbstractPendingRequestsHolder.java
+END
+BTPendingRequestsHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTPendingRequestsHolder.java
+END
+AbstractBitfieldHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/AbstractBitfieldHolder.java
+END
+BufferedReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BufferedReceiver.java
+END
+SocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/SocketConnection.java
+END
+AbstractBTConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/AbstractBTConnection.java
+END
+PendingRequestsHoldingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/PendingRequestsHoldingReceiver.java
+END
+BTMessageSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTMessageSender.java
+END
+BitfieldHoldingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BitfieldHoldingReceiver.java
+END
+BitfieldHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BitfieldHolder.java
+END
+BTQueuedMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTQueuedMessage.java
+END
+BTPeerStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTPeerStatus.java
+END
+BTConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTConnection.java
+END
+PendingRequestsHoldingSender.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/PendingRequestsHoldingSender.java
+END
+BTMessageSenderCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BTMessageSenderCallback.java
+END
+SynchronizingReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/SynchronizingReceiver.java
+END
+BitfieldProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/peer/connection/BitfieldProvider.java
+END

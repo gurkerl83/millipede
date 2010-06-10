@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.storagelayer
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

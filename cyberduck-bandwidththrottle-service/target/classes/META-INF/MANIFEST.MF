@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Export-Package: ch.cyberduck.core.io.service;version="1.0.0",ch.cyberd
+ uck.core.service;version="1.0.0"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-SymbolicName: cyberduck-bandwidththrottle-service
+

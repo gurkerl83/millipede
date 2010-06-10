@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 50
+.classpath
+.project
+target
+.settings
+.springBeans
+
+END

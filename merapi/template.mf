@@ -1,0 +1,12 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.merapi
+Bundle-Name: ${project.name}
+Bundle-Activator: org.merapi.BridgeActivator
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *
+Import-Package: flex.messaging.io;version="[3.2.0.3978,4.0.0.10153]",
+ flex.messaging.io.amf;version="[3.2.0.3978,4.0.0.10153]"
+Bundle-Version: 1.0.0
+Provide-Package: org.merapi.internal;version="1.0.0"

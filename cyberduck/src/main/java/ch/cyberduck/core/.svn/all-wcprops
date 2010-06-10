@@ -1,0 +1,503 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/5843/trunk/source/ch/cyberduck/core
+END
+NullComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/NullComparator.java
+END
+NaturalOrderCollator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/5626/trunk/source/ch/cyberduck/core/NaturalOrderCollator.java
+END
+PathAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5760/trunk/source/ch/cyberduck/core/PathAttributes.java
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Cache.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Factory.java
+END
+SessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SessionFactory.java
+END
+LoginController.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/LoginController.java
+END
+DownloadTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/DownloadTransfer.java
+END
+HistoryCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/HistoryCollection.java
+END
+Host.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/5648/trunk/source/ch/cyberduck/core/Host.java
+END
+RendezvousCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/RendezvousCollection.java
+END
+Archive.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/Archive.java
+END
+KeychainFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/KeychainFactory.java
+END
+Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/Session.java
+END
+HostFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/HostFilter.java
+END
+SystemConfigurationProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationProxy.h
+END
+Native.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/5618/trunk/source/ch/cyberduck/core/Native.java
+END
+PreferencesFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/PreferencesFactory.java
+END
+SystemConfigurationProxy.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationProxy.m
+END
+NaturalOrderComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/5626/trunk/source/ch/cyberduck/core/NaturalOrderComparator.java
+END
+TransferFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferFilter.java
+END
+Keychain.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Keychain.java
+END
+ErrorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ErrorListener.java
+END
+Resolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Resolver.java
+END
+StreamListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/StreamListener.java
+END
+AttributedList.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/AttributedList.java
+END
+Rendezvous.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Rendezvous.java
+END
+ConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ConnectionListener.java
+END
+ProxyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ProxyFactory.java
+END
+Speedometer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/5829/trunk/source/ch/cyberduck/core/Speedometer.java
+END
+SyncTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/SyncTransfer.java
+END
+AbstractCollectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/AbstractCollectionListener.java
+END
+TransferPrompt.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferPrompt.java
+END
+ReachabilityFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ReachabilityFactory.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5625/trunk/source/ch/cyberduck/core/Permission.java
+END
+HostCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/HostCollection.java
+END
+Collection.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5653/trunk/source/ch/cyberduck/core/Collection.java
+END
+SystemConfigurationReachability.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationReachability.java
+END
+ConnectionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ConnectionAdapter.java
+END
+TransferCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferCollection.java
+END
+TransferOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferOptions.java
+END
+Protocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/5842/trunk/source/ch/cyberduck/core/Protocol.java
+END
+HiddenFilesPathFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/HiddenFilesPathFilter.java
+END
+PathFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/PathFilter.java
+END
+SystemConfigurationReachability.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationReachability.h
+END
+AbstractProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/AbstractProxy.java
+END
+Serializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Serializable.java
+END
+LoginCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/LoginCanceledException.java
+END
+SystemConfigurationReachability.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationReachability.m
+END
+RendezvousListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/RendezvousListener.java
+END
+PathReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/PathReference.java
+END
+AbstractPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5832/trunk/source/ch/cyberduck/core/AbstractPath.java
+END
+PathFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/PathFactory.java
+END
+Transfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/Transfer.java
+END
+NullTransferFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/NullTransferFilter.java
+END
+Attributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/!svn/ver/5760/trunk/source/ch/cyberduck/core/Attributes.java
+END
+UploadTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/UploadTransfer.java
+END
+Local.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5835/trunk/source/ch/cyberduck/core/Local.java
+END
+Credentials.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Credentials.java
+END
+TranscriptListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TranscriptListener.java
+END
+AbstractLoginController.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/5625/trunk/source/ch/cyberduck/core/AbstractLoginController.java
+END
+Reachability.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Reachability.java
+END
+CollectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/CollectionListener.java
+END
+Preferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/5843/trunk/source/ch/cyberduck/core/Preferences.java
+END
+Keychain.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Keychain.h
+END
+Keychain.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Keychain.m
+END
+ProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ProgressListener.java
+END
+BrowserComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/BrowserComparator.java
+END
+ResolveCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ResolveCanceledException.java
+END
+SystemConfigurationProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/SystemConfigurationProxy.java
+END
+AbstractKeychain.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/AbstractKeychain.java
+END
+Proxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Proxy.java
+END
+BookmarkCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/BookmarkCollection.java
+END
+LocalFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/LocalFactory.java
+END
+TransferAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferAction.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/5625/trunk/source/ch/cyberduck/core/Status.java
+END
+Queue.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/Queue.java
+END
+AbstractStreamListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/AbstractStreamListener.java
+END
+TransferAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferAdapter.java
+END
+TransferListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/TransferListener.java
+END
+Path.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/5804/trunk/source/ch/cyberduck/core/Path.java
+END
+NullPathFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/NullPathFilter.java
+END
+ConnectionCanceledException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ConnectionCanceledException.java
+END

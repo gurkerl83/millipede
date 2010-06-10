@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal
+END
+PolicyServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/PolicyServer.java
+END
+BridgeListenerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/BridgeListenerThread.java
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/readme.txt
+END
+readme_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/readme_1.txt
+END
+Bridge.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/Bridge.java
+END
+Bootstrap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/Bootstrap.java
+END
+ByteBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/18/trunk/millipede/merapi/src/main/java/org/merapi/internal/ByteBuffer.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/resources/META-INF/spring
+END
+bundle-context-osgi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/resources/META-INF/spring/bundle-context-osgi.xml
+END
+bundle-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/resources/META-INF/spring/bundle-context.xml
+END

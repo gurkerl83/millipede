@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/dht/mainline
+END
+MainlineDHTManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/dht/mainline/MainlineDHTManager.java
+END
+MainlineDHTProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/dht/mainline/MainlineDHTProvider.java
+END

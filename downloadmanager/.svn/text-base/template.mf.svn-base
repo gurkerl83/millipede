@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.downloadmanager
+Bundle-Name: ${project.name}
+Bundle-Activator: org.gudy.azureus2.Activation
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *

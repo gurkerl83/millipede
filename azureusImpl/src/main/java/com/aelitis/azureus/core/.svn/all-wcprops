@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core
+END
+AzureusCoreFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreFactory.java
+END
+MillipedeCoreFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/MillipedeCoreFactory.java
+END
+AzureusCoreException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreException.java
+END
+AzureusCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCore.java
+END
+AzureusCoreOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreOperation.java
+END
+AzureusCoreOperationTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreOperationTask.java
+END
+MillipedeCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/MillipedeCore.java
+END
+AzureusCoreOperationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreOperationListener.java
+END
+AzureusCoreRunningListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/10/trunk/millipede/azureusImpl/src/main/java/com/aelitis/azureus/core/AzureusCoreRunningListener.java
+END

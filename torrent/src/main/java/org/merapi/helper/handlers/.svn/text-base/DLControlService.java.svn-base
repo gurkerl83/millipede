@@ -1,0 +1,22 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package org.merapi.helper.handlers;
+
+import java.io.File;
+import org.merapi.messages.IMessage;
+/**
+ *
+ * @author gurkerl
+ */
+public interface DLControlService {
+
+    /**
+     * Handles the VoiceMessage.SAY_IT message type.
+     */
+    void handleMessage(IMessage message);
+
+//    public File getFile();
+}

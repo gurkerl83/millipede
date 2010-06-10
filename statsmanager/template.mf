@@ -1,0 +1,9 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.gudy.statsmanager
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *
+Bundle-Activator: org.gudy.azureus2.core3.peer.internal.PEPeerManagerStatsImpl

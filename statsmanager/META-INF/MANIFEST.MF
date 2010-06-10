@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: org.gudy.azureus2.core3.peer;version="1.0.0"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: statsmanager
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.gudy.azureus2.core3.peer.internal.PEPeerManagerS
+ tatsImpl
+Bundle-SymbolicName: org.gudy.statsmanager
+Import-Package: org.gudy.azureus2.core3.peer,org.gudy.azureus2.core3.u
+ til,org.osgi.framework,org.torrent.internal.client,org.torrent.intern
+ al.transfer,org.torrent.transfer
+

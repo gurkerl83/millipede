@@ -1,0 +1,66 @@
+10
+
+dir
+21
+https://millipedeme.googlecode.com/svn/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3
+https://millipedeme.googlecode.com/svn
+
+
+
+2010-01-28T03:48:55.913796Z
+9
+gurkerl83
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e8c43e84-0a8b-11df-8612-a59a22e72e9b
+
+
+
+
+
+
+
+empty
+
+global
+dir
+
+xml
+dir
+
+internat
+dir
+
+config
+dir
+
+logging
+dir
+
+download
+dir
+
+peer
+dir
+
+torrentdownloader
+dir
+
+torrent
+dir
+
+util
+dir
+

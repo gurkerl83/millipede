@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: org.gudy.azureus2.plugins.messaging;version="0.0.1",or
+ g.torrent.internal.data;version="0.0.1";uses:="org.torrent.internal.u
+ til,org.torrent.internal.util",org.torrent.internal.util;version="1.0
+ .0"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: cycle
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.cycle
+Provide-Package: org.gudy.azureus2.plugins.messaging,org.torrent.inter
+ nal.data
+

@@ -1,0 +1,80 @@
+package org.merapi.helper.messages;
+
+
+
+import org.merapi.messages.Message;
+
+
+public class ListUpdateMessage extends Message {
+
+    //--------------------------------------------------------------------------
+    //
+    //  Constants
+    //
+    //--------------------------------------------------------------------------
+    public static final String ITEM_ADDED = "itemAdded";
+    public static final String ITEM_REMOVED = "itemRemoved";
+    
+	
+    
+    /**
+     *  Message type for a SAY_IT message.
+     */
+    public static final String LIST_UPDATE = "listUpdate";
+
+    //--------------------------------------------------------------------------
+    //
+    //  Constructor
+    //
+    //--------------------------------------------------------------------------
+    /**
+     *  Constructor.
+     */
+    public ListUpdateMessage() {
+        super(LIST_UPDATE);
+    }
+    //--------------------------------------------------------------------------
+    //
+    //  Properties
+    //
+    //--------------------------------------------------------------------------
+
+    //----------------------------------
+    //  text
+    //----------------------------------
+    /**
+     *  A custom data property that contains the text to speak sent from AIR
+     */
+//    public String getText() { return __text; }
+//    public void setText( String val ) { __text = val; }
+
+    //--------------------------------------------------------------------------
+    //
+    //  Variables
+    //
+    //--------------------------------------------------------------------------
+
+//    private String __text = null;
+    public String action = null;
+    //public String fileReference = null;
+    public String infoHash = null;
+
+    /**
+     *  A set of args to use as the system execute parameters
+     */
+    public String[] getArgs() {
+        Object[] data = (Object[]) getData();
+        String[] args = new String[data.length];
+        for (int i = 0; i < data.length; i++) {
+            args[i] = (String) data[i];
+        }
+        return args;
+    }
+
+    public void setArgs(String[] stringArray) {
+//        for (int i = 0; i< stringArray.length ; i++) {
+//            this.setData(stringArray[i]);
+//        }
+        this.setData(stringArray);
+    }
+}

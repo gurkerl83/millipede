@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/transfer
+END
+Transfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/transfer/Transfer.java
+END
+TransferImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/transfer/TransferImpl.java
+END
+TransferBuilderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/transfer/TransferBuilderService.java
+END

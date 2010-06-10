@@ -1,0 +1,94 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.merapi.helper.handlers;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.merapi.handlers.MessageHandler;
+import org.merapi.helper.messages.BarUpdateRequestMessage;
+import org.merapi.helper.messages.ConfigurationMessage;
+import org.merapi.helper.messages.DLControlMessage;
+import org.merapi.helper.messages.DLControlRespondMessage;
+import org.merapi.helper.messages.ListUpdateMessage;
+import org.merapi.messages.IMessage;
+//import org.milipede.storage.layer.internal.domain.ProviderVO;
+import org.torrent.client.MainService;
+import org.torrent.internal.client.Main;
+
+/**
+ * 
+ * @author gurkerl
+ */
+public class ConfigurationRequestHandler extends MessageHandler {
+
+	private static ConfigurationRequestHandler instance = new ConfigurationRequestHandler();
+
+	/**
+	 * Statische Methode, liefert die einzige Instanz dieser Klasse zurück
+	 */
+	public static ConfigurationRequestHandler getInstance() {
+		return instance;
+	}
+
+		/**
+	 * Default-Konstruktor, der nicht außerhalb dieser Klasse aufgerufen werden
+	 * kann
+	 */
+	private ConfigurationRequestHandler() {
+		super(ConfigurationMessage.CONFIG);
+//		service = new Main();
+	}
+
+	@Override
+	public void handleMessage(IMessage message) {
+		if (message instanceof ConfigurationMessage) {
+			ConfigurationMessage configurationMessage = (ConfigurationMessage) message;
+
+//			Object[] args = configurationMessage.getArgs();
+//			System.out.println("Length: " + sem.getArgs().length);
+//			ProviderVO vo = (ProviderVO) args[0];
+			System.out.println("Message Uid: " + configurationMessage.getUid());
+                        
+		} else {
+		}
+
+	}
+
+	// @Override
+	// public File getFile() {
+	// return this.file;
+	// }
+
+//	public void sendListUpdateMessage(String action, String infoHash) {
+//		ListUpdateMessage updateMessage = new ListUpdateMessage();
+//
+//		updateMessage.action = action;
+//		updateMessage.infoHash = infoHash;
+//		updateMessage.send();
+//	}
+//	
+//	public void sendDLControlRespondMessage(String action, String infoHash){
+//		DLControlRespondMessage dlControlRespondMessage = new DLControlRespondMessage();
+//		
+//		dlControlRespondMessage.action = action;
+//		dlControlRespondMessage.infoHash = infoHash;
+//		dlControlRespondMessage.send();
+//	}
+//
+//	// updateMessage.setUid(downloadControlMessage.getUid());
+//	// updateMessage.action = ListUpdateMessage.ITEM_ADDED;
+//	// Random RNG = new Random();
+//	// Integer next = RNG.nextInt();
+//	// String[] array = new String[] {"1", "tester", "12", "2", "true"};
+//	// array[0] = next.toString();
+//	// updateMessage.setArgs(array);
+//	// updateMessage.send();
+
+}

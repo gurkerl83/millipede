@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/utils
+END
+PeerClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/utils/PeerClassifier.java
+END
+BTPeerIDByteDecoderDefinitions.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/utils/BTPeerIDByteDecoderDefinitions.java
+END
+BTPeerIDByteDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/utils/BTPeerIDByteDecoder.java
+END
+BTPeerIDByteDecoderUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/utils/BTPeerIDByteDecoderUtils.java
+END

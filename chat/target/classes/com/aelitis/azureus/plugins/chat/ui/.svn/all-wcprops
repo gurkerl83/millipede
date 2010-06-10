@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui
+END
+ChatPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui/ChatPanel.java
+END
+MyTorrentsActivityIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui/MyTorrentsActivityIndicator.java
+END
+ShellCreateChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui/ShellCreateChannel.java
+END
+ChannelPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui/ChannelPanel.java
+END
+ChatPanelsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/11/trunk/millipede/chat/src/main/java/com/aelitis/azureus/plugins/chat/ui/ChatPanelsManager.java
+END

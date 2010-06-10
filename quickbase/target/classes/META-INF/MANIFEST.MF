@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: quickbase;version="1.0.0";uses:="quickbase.exception,q
+ uickbase.internal.entries,quickbase.internal.index,quickbase.serializ
+ er,quickbase.service",quickbase.exception;version="1.0.0";uses:="quic
+ kbase.internal.files",quickbase.internal.consumer;version="1.0.0";use
+ s:="quickbase.exception,quickbase.internal.entries,quickbase.internal
+ .files,quickbase.internal.index,quickbase.serializer,quickbase.servic
+ e",quickbase.internal.entries;version="1.0.0";uses:="quickbase.except
+ ion,quickbase.internal.index,quickbase.serializer",quickbase.internal
+ .files;version="1.0.0";uses:="quickbase.exception,quickbase.internal.
+ consumer,quickbase.internal.entries",quickbase.internal.index;version
+ ="1.0.0";uses:="gnu.trove,quickbase.exception",quickbase.internal.mix
+ ed;version="1.0.0";uses:="quickbase,quickbase.exception,quickbase.ser
+ ializer,quickbase.service",quickbase.serializer;version="1.0.0";uses:
+ ="quickbase.exception",quickbase.service;version="1.0.0";uses:="quick
+ base.exception",quickbase.test;version="1.0.0";uses:="quickbase.excep
+ tion,quickbase.service"
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Import-Package: gnu.trove;version="2.1.0"
+Bundle-SymbolicName: quickbase
+

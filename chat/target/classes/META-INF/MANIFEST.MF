@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Export-Package: com.aelitis.azureus.plugins.chat;version="1.0.0";uses:
+ ="com.aelitis.azureus.plugins.chat.messaging,org.gudy.azureus2.plugin
+ s.config,org.gudy.azureus2.plugins.download,org.gudy.azureus2.plugins
+ .torrent,org.osgi.framework",com.aelitis.azureus.plugins.chat.messagi
+ ng;version="1.0.0";uses:="org.gudy.azureus2.plugins.download",com.ael
+ itis.azureus.plugins.chat.peer;version="1.0.0";uses:="com.aelitis.azu
+ reus.plugins.chat.messaging,org.gudy.azureus2.plugins.download",com.a
+ elitis.azureus.plugins.chat.peer.impl;version="1.0.0";uses:="com.aeli
+ tis.azureus.plugins.chat,com.aelitis.azureus.plugins.chat.messaging,c
+ om.aelitis.azureus.plugins.chat.peer,com.aelitis.azureus.plugins.chat
+ .peer.impl.messaging,org.gudy.azureus2.plugins.download,org.gudy.azur
+ eus2.plugins.messaging,org.gudy.azureus2.plugins.network,org.gudy.azu
+ reus2.plugins.peers",com.aelitis.azureus.plugins.chat.peer.impl.messa
+ ging;version="1.0.0";uses:="org.gudy.azureus2.plugins.messaging"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: chat
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.aelitis.azureus.plugins.chat.ChatPlugin
+Bundle-SymbolicName: org.millipede.chat
+Import-Package: com.aelitis.azureus.core,org.gudy.azureus2.plugins.con
+ fig,org.gudy.azureus2.plugins.download,org.gudy.azureus2.plugins.mess
+ aging,org.gudy.azureus2.plugins.network,org.gudy.azureus2.plugins.pee
+ rs,org.gudy.azureus2.plugins.torrent,org.gudy.azureus2.pluginsimpl.lo
+ cal.torrent,org.gudy.azureus2.pluginsimpl.locale.utils,org.osgi.frame
+ work
+

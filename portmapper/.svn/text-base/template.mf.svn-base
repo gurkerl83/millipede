@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.portmapper
+Bundle-Name: ${project.name}
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

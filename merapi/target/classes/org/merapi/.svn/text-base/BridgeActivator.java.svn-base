@@ -1,0 +1,75 @@
+package org.merapi;
+
+import java.net.InetAddress;
+import org.merapi.BridgeService;
+import org.merapi.handlers.MessageHandler;
+import org.merapi.internal.Bridge;
+import org.merapi.internal.PolicyServer;
+import org.merapi.messages.IMessage;
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceReference;
+import org.osgi.framework.ServiceRegistration;
+
+public class BridgeActivator implements BundleActivator {
+
+	ServiceRegistration serviceRegistration;
+	
+    
+	public void start(BundleContext bundleContext) throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("STARTING org.merapi.osgi.java");
+		//Construction of the Bridge Singleton
+//		Bridge.open();
+		//Bridge Singleton instance registered with ServiceRegister
+
+//                PolicyServer ps=new PolicyServer(12344, null);
+//                ps.start();
+//                while(ps.isAlive()) {
+//
+//                    ps.sleep(1000);
+//                    Bridge.open();
+//                }
+                    
+                
+//                ( new PolicyServer( 12344, null ) ).start();
+                ( new PolicyServer( 12344, new String[] { "*:12345" } ) ).start();
+                Bridge.open();
+//		new MessageHandler( "test" )
+//		{
+//			public void handleMessage( IMessage m )
+//			{
+//				System.out.println( m );
+//
+//				try {
+//					Bridge.getInstance().sendMessage( m );
+//				} catch (Exception e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		};
+
+                serviceRegistration = bundleContext.registerService(BridgeService.class.getName(), Bridge.getInstance(), null);
+
+
+		ServiceReference serviceReference = bundleContext.getServiceReference(BridgeService.class.getName());
+		BridgeService bridge = (BridgeService) bundleContext.getService(serviceReference);
+		System.out.println("bridge from OSGI Registry: " + bridge +
+				"bridge of getInstance: " + Bridge.getInstance());
+//		Bridge.getInstance().open();
+//                Bridge.open();
+		System.out.println("REGISTERED org.merapi.BridgeService");
+	}
+
+	public void stop(BundleContext bundleContext) throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("STOPPING org.merapi.osgi.java");
+		//Destruction of the Bridge Singleton 
+//		Bridge.getInstance().close();
+                Bridge.close();
+		//Bridge Singleton instance unregistered from ServiceRegister
+		serviceRegistration.unregister();
+		System.out.println("UNREGISTERED org.merapi.BridgeService");
+	}
+
+}

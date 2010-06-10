@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>millipede</artifactId>
+        <groupId>org.millipede</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <groupId>org.millipede</groupId>
+    <artifactId>opendedup</artifactId>
+    <version>1.0.0</version>
+    <url>http://www.springframework.org/osgi</url>
+    <properties>
+        <equinox.ver>3.2.2</equinox.ver>
+        <spring.maven.artifact.version>2.5.6.SEC01</spring.maven.artifact.version>
+        <slf4j.version>1.5.0</slf4j.version>
+        <spring.osgi.version>1.2.1</spring.osgi.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>minijar-maven-plugin</artifactId>
+            <version>1.0-alpha-3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-cli</groupId>
+            <artifactId>commons-cli</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>gnu.trove</groupId>
+            <artifactId>trove</artifactId>
+            <version>3.0.0a3</version>
+            <!--
+        <version>2.1.0</version>
+        -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpg-jdk16</artifactId>
+            <version>1.45</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+            <version>1.45</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.igniterealtime</groupId>
+            <artifactId>tinder</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <version>1.7.3</version>
+            <artifactId>quartz</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eaio.uuid</groupId>
+            <artifactId>uuid</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <!-- aws s3 mgmt client -->
+        <dependency>
+            <groupId>net.java.dev.jets3t</groupId>
+            <artifactId>jets3t</artifactId>
+            <version>0.7.3</version>
+        </dependency>
+        <!-- synchronize for s3 client -->
+        <dependency>
+            <groupId>net.java.dev.jets3t</groupId>
+            <artifactId>synchronize</artifactId>
+            <version>0.7.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.beans</artifactId>
+            <version>${spring.maven.artifact.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.core</artifactId>
+            <version>${spring.maven.artifact.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.context</artifactId>
+            <version>${spring.maven.artifact.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>com.springsource.slf4j.org.apache.commons.logging</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>com.springsource.slf4j.api</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>com.springsource.slf4j.log4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>log4j</artifactId>
+                    <groupId>log4j</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>com.springsource.org.apache.log4j</artifactId>
+                    <groupId>org.apache.log4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>com.springsource.junit</artifactId>
+            <version>3.8.2</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>org.springframework.test</artifactId>
+            <version>${spring.maven.artifact.version}</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+                    <groupId>org.apache.commons</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-test</artifactId>
+            <version>${spring.osgi.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-annotation</artifactId>
+            <version>${spring.osgi.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>spring-osgi-extender</artifactId>
+            <version>${spring.osgi.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.aopalliance</groupId>
+            <artifactId>com.springsource.org.aopalliance</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.osgi</groupId>
+            <artifactId>org.eclipse.osgi</artifactId>
+            <version>${equinox.ver}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.osgi</groupId>
+            <artifactId>log4j.osgi</artifactId>
+            <version>1.2.15-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>i21-s3-osgi-repo</id>
+            <name>i21 osgi artifacts repo</name>
+            <url>http://maven.springframework.org/osgi</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.external</id>
+            <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.release</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/release</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.milestone</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Milestone Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/milestone</url>
+        </repository>
+        <repository>
+            <id>spring-release</id>
+            <name>Spring Portfolio Release Repository</name>
+            <url>http://maven.springframework.org/release</url>
+        </repository>
+        <repository>
+            <id>eclipse-repository</id>
+            <name>Eclipse Repository</name>
+            <url>http://repo1.maven.org/eclipse/</url>
+        </repository>
+        <repository>
+            <id>spring-ext</id>
+            <name>Spring External Dependencies Repository</name>
+            <url>https://springframework.svn.sourceforge.net/svnroot/springframework/repos/repo-ext/</url>
+        </repository>
+
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </snapshots>
+            <id>com.eaio</id>
+            <name>eaio.com repository</name>
+            <url>http://eaio.com/maven2</url>
+        </repository>
+
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>maven-repo</id>
+            <name>maven repo</name>
+            <url>http://repo1.maven.org/maven2/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>com.springsource.repository.bundles.milestone</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Milestone Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/milestone</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>.</directory>
+                <includes>
+                    <include>plugin.xml</include>
+                    <include>META-INF/*</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.3</version>
+                <configuration>
+                    <!--
+                                                <property name="dist" value="dist" /> <property name="cls"
+                                                value="bin" /> <property name="res" value="ressourcen" />
+                                        -->
+                                        <!--
+                                                <property name="keystore"
+                                                value="/home/coalado/Desktop/jDownloader.keystore" />
+                                        -->
+                                        <!--
+                                                plugins that serialize ohn classes have to be put in the classpath
+                                        -->
+                                        <!--
+                                                <property name="class-path" value="libs/Filters.jar
+                                                libs/JTattoo.jar plugins/JDPackageCustomizer.jar
+                                                plugins/schedule.jar libs/JUnique.jar libs/jna.jar libs/JDGUI.jar
+                                                libs/JDHttp.jar libs/JAntiCaptcha.jar libs/JDUtils.jar
+                                                libs/BrowserLauncher2.jar libs/clink170.jar libs/cobra.jar
+                                                libs/hsqldb.jar libs/htmlcleaner2_0.jar libs/irclib.jar
+                                                libs/js.jar libs/looks.jar libs/mail.jar libs/miglayout.jar
+                                                libs/savemytube.jar libs/laf/substance-swingx.jar
+                                                libs/laf/substance.jar libs/svnkit.jar libs/swingworker.jar
+                                                libs/swingx.jar libs/ui.jar libs/laf/synthetica.jar
+                                                libs/laf/syntheticaBatik.jar libs/laf/syntheticaBlackMoon.jar
+                                                libs/laf/syntheticaBlackStar.jar libs/laf/syntheticaBlueIce.jar
+                                                libs/laf/syntheticaBlueMoon.jar libs/laf/syntheticaBlueSteel.jar
+                                                libs/laf/syntheticaGreenDream.jar
+                                                libs/laf/syntheticaMauveMetallic.jar
+                                                libs/laf/syntheticaOrangeMetallic.jar
+                                                libs/laf/syntheticaBlackEye.jar libs/laf/syntheticaGreenDream.jar
+                                                libs/laf/syntheticaSilverMoon.jar libs/laf/syntheticaSimple2D.jar
+                                                libs/laf/syntheticaSkyMetallic.jar
+                                                libs/laf/syntheticaWhiteVision.jar" />
+                                        -->
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>clean</id>
+                        <phase>clean</phase>
+                        <configuration>
+                            <tasks>
+                                <echo message=">>>>>>>>>>>>>>>>>>>>>>>>>>>>clean" />
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>generate-sources</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+
+                            <!--
+                                                                <tasks name="replace" if="The name of the property that must be
+                                                                set in order for this task" unless="The name of the property
+                                                                that must NOT be set in order for this task" description="A
+                                                                short description of this target's function">
+                                                        -->
+
+                            <tasks>
+                                <!--<property name="dist" value="dist" />-->
+<!--
+                                <copy todir="${project.build.sourceDirectory}/org/opendedup">
+                                    <fileset
+                                        dir="D:\Development\Java\opendedup\opendedup-read-only\src\org\opendedup">
+
+                                        <include name="**/*.java" />
+
+                                    </fileset>
+                                </copy>
+                                -->
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+
+                <dependencies>
+                    <!--
+                                                <dependency> <groupId>org.apache.ant</groupId>
+                                                <artifactId>ant-nodeps</artifactId> <version>1.7.1</version>
+                                                </dependency> <dependency> <groupId>org.codehaus.mojo</groupId>
+                                                <artifactId>findbugs-maven-plugin</artifactId>
+                                                <version>2.2</version> </dependency> <dependency>
+                                                <groupId>org.apache.ant</groupId> <artifactId>ant</artifactId>
+                                                <version>1.7.1</version> </dependency> <dependency>
+                                                <groupId>org.apache.maven</groupId>
+                                                <artifactId>maven-artifact</artifactId> <version>2.0.4</version>
+                                                </dependency> <dependency> <groupId>org.apache.maven</groupId>
+                                                <artifactId>maven-plugin-api</artifactId> <version>2.0.4</version>
+                                                </dependency> <dependency> <groupId>org.apache.maven</groupId>
+                                                <artifactId>maven-project</artifactId> <version>2.0.4</version>
+                                                </dependency> <dependency> <groupId>org.codehaus.plexus</groupId>
+                                                <artifactId>plexus-utils</artifactId> <version>1.5.6</version>
+                                                </dependency>
+                                        -->
+
+                </dependencies>
+
+            </plugin>
+
+            <plugin>
+                <artifactId>minijar-maven-plugin</artifactId>
+                <groupId>org.codehaus.mojo</groupId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>ueberjar</goal>
+                        </goals>
+                        <configuration>
+                            <stripUnusedClasses>false</stripUnusedClasses>
+                            <includeDependencies>
+                                <param>org.vafer:dependency</param>
+                            </includeDependencies>
+                            <includeDependenciesInRelocation>
+                                <param>org.vafer:dependency</param>
+                            </includeDependenciesInRelocation>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
+
+
+            <plugin>
+                <groupId>com.springsource.bundlor</groupId>
+                <artifactId>com.springsource.bundlor.maven</artifactId>
+                <version>1.0.0.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bundlor</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <outputPath>${basedir}</outputPath>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <!--
+                                                        <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+                                                -->
+                        <manifestFile>${basedir}/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+    <name>opendedup</name>
+</project>
+

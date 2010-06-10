@@ -1,0 +1,13 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.merapi
+Bundle-Name: ${project.name}
+Bundle-Activator: org.merapi.BridgeActivator
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *
+Provide-Package: org.merapi.handlers;specification-version="1.0.0",
+ org.merapi.internal;specification-version="1.0.0",
+ org.merapi.messages;specification-version="1.0.0",
+ org.merapi.internal.systemexecute.messages,
+ org.merapi.internal.systemexecute.handlers

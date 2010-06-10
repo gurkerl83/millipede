@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: org.openmole.misc.pluginmanager;version="1.0.0";uses:=
+ "org.openmole.misc.exception,org.osgi.framework",org.openmole.misc.pl
+ uginmanager.internal;version="1.0.0";uses:="org.openmole.misc.excepti
+ on,org.openmole.misc.pluginmanager,org.osgi.framework,org.osgi.servic
+ e.packageadmin"
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Activator: org.openmole.misc.pluginmanager.internal.Activator
+Import-Package: org.apache.commons.collections15,org.apache.commons.co
+ llections15.bidimap,org.openmole.misc.exception,org.osgi.framework,or
+ g.osgi.service.packageadmin
+Bundle-SymbolicName: org.openmole.misc.pluginmanager
+

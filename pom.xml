@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<!--
+		| put company details here <organization> <name>...</name>
+		<url>http://...</url> </organization>
+	-->
+
+	<!--
+		| put license details here <licenses> <license> <name>...</name>
+		<url>http://...</url> <comments> </comments> </license> </licenses>
+	-->
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.millipede</groupId>
+	<artifactId>millipede</artifactId>
+	<version>1.0.0</version>
+
+	<name>org.millipede (OSGi project)</name>
+
+	<!--
+   | describe your project here
+  -->
+	<description>
+    Generated using Pax-Construct
+  </description>
+
+	<properties>
+		<!--
+     | some example OSGi runtime properties
+    -->
+		<org.osgi.service.http.port>8080</org.osgi.service.http.port>
+		<org.osgi.service.http.port.secure>8443</org.osgi.service.http.port.secure>
+	</properties>
+
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>poms</module>
+		<module>provision</module>
+		<module>merapi</module>
+		<module>azureusAPI</module>
+		<module>azureusImpl</module>
+		<module>portmapper</module>
+		<module>torrent</module>
+		<module>mldht</module>
+		<module>messagemanager</module>
+		<module>mainline</module>
+		<module>globalmanager</module>
+		<module>chat</module>
+		<module>downloadmanager</module>
+		<module>cycle</module>
+		<!--  
+    <module>debug</module>
+    <module>rssfeed</module> -->
+		<module>statsmanager</module>
+		<module>router</module>
+
+    <module>system</module>
+    <module>storage-layer</module>
+    <module>quickbase</module>
+
+    <module>org.openmole.misc.exception</module>
+    <module>org.openmole.misc.pluginmanager</module>
+    <module>cyberduck-api</module>
+    <module>cyberduck-bandwidththrottle-service</module>
+    <module>cyberduck-services</module>
+    <module>opendedup</module>
+  </modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.ops4j</groupId>
+				<artifactId>maven-pax-plugin</artifactId>
+				<version>RELEASE</version>
+				<configuration>
+					<!--
+           | some example Pax-Runner settings
+          -->
+
+					<provision>
+						<param>--platform=equinox</param>
+					</provision>
+				</configuration>
+				<executions>
+
+
+					<execution>
+						<id>ide-support</id>
+						<goals>
+							<goal>eclipse</goal>
+						</goals>
+					</execution>
+
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>com.springsource.bundlor</groupId>
+				<artifactId>com.springsource.bundlor.maven</artifactId>
+				<version>1.0.0.RELEASE</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>bundlor</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+					</archive>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.aries.blueprint</groupId>
+			<artifactId>aries-blueprint-api</artifactId>
+			<version>1.0.0-incubating-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

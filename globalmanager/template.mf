@@ -1,0 +1,13 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.globalmanager
+Bundle-Name: ${project.name}
+Bundle-Activator: org.gudy.azureus2.core3.global.impl.GlobalManagerImpl
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *
+Provide-Package: org.milipede.traydock.merapi.messages;specification-versi
+ on="0.0.0", org.milipede.traydock.merapi.handlers;specification-version="
+ 0.0.0", org.milipede.merapi.handlers;specification-version="0.0.0", org.m
+ ilipede.merapi.messages;specification-version="0.0.0"
+Bundle-Version: 1.0.0

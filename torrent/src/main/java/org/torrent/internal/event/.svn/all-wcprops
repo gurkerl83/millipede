@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/event
+END
+DownloadEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/event/DownloadEventListener.java
+END
+AvailabilityListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/event/AvailabilityListener.java
+END
+DownloadEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/event/DownloadEvent.java
+END
+AvailabilityEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/event/AvailabilityEvent.java
+END

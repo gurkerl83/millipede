@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global
+END
+GlobalManagerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global/GlobalManagerListener.java
+END
+GlobalMangerProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global/GlobalMangerProgressListener.java
+END
+GlobalManagerDownloadRemovalVetoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global/GlobalManagerDownloadRemovalVetoException.java
+END
+GlobalManagerDownloadWillBeRemovedListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global/GlobalManagerDownloadWillBeRemovedListener.java
+END
+GlobalManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/global/GlobalManager.java
+END

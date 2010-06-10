@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/ftp
+END
+FTPPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/ftp/FTPPath.java
+END
+FTPSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/ftp/FTPSession.java
+END
+FTPParserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/FTPParserFactory.java
+END

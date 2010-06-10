@@ -1,0 +1,48 @@
+package org.torrent.internal.bencoding;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import org.merapi.helper.handlers.DLControlRequestHandler;
+import org.merapi.helper.handlers.DLControlRequestHandler_;
+import org.merapi.helper.messages.ListUpdateMessage;
+import org.torrent.internal.data.MetaInfoFile;
+import org.torrent.internal.transfer.TransferBuilder;
+import org.torrent.internal.util.Validator;
+
+public final class MetaInfoFileIO {
+	
+	
+	
+	private MetaInfoFileIO() {
+
+	}
+
+	public static MetaInfoFile load(InputStream in) throws IOException {
+		
+		Validator.notNull(in, "Inputstream is null!");
+		try {
+			MetaInfoFile metaInfoFile = new MetaInfoFile((BMap) BDecoder.bdecode(in));
+
+			int rows = metaInfoFile.getDataInfo().getPieceLength()/TransferBuilder.chunksize;
+			DLControlRequestHandler.sendDLControlRespondMessage(ListUpdateMessage.ITEM_ADDED, metaInfoFile.getInfoHash().asHexString(), metaInfoFile.toString(), metaInfoFile.getDataInfo().getPiecesCount(), rows, 0, 0, 0, 0, 0);
+//			, metaInfoFile.getDataInfo().toString()
+			
+			return metaInfoFile;
+		} catch (ClassCastException e) {
+			throw new IOException(e);
+		} catch (BDecodingException e) {
+			throw new IOException(e);
+		} catch (BTypeException e) {
+			throw new IOException(e);
+		}
+	}
+
+	public static void save(MetaInfoFile mif, OutputStream out)
+			throws IOException {
+		Validator.nonNull(mif, out);
+		out.write(BEncoder.bencode(mif.asDictionary()));
+	}
+
+}

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.kmallan.azureus.rssfeed;version="1.0.0";uses:="jav
+ ax.net.ssl,javax.swing.text,javax.swing.text.html,org.gudy.azureus2.p
+ lugins,org.gudy.azureus2.plugins.download,org.gudy.azureus2.plugins.t
+ orrent,org.w3c.dom"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: rssfeed
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede
+Import-Package: javax.net.ssl;version="0",javax.swing.text;version="0"
+ ,javax.swing.text.html;version="0",javax.swing.text.html.parser;versi
+ on="0",javax.xml.parsers;version="0",org.gudy.azureus2.core3.config,o
+ rg.gudy.azureus2.core3.util,org.gudy.azureus2.plugins,org.gudy.azureu
+ s2.plugins.download,org.gudy.azureus2.plugins.torrent,org.w3c.dom;ver
+ sion="0",org.xml.sax;version="0"
+

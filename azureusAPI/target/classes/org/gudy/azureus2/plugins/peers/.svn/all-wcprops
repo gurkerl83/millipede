@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers
+END
+PeerReadRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerReadRequest.java
+END
+PeerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerListener.java
+END
+PeerListener2.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerListener2.java
+END
+PeerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerManager.java
+END
+PeerManagerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerManagerEvent.java
+END
+PeerDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerDescriptor.java
+END
+PeerStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerStats.java
+END
+Peer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/Peer.java
+END
+PeerManagerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerManagerListener.java
+END
+PeerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerEvent.java
+END
+PeerManagerListener2.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/peers/PeerManagerListener2.java
+END

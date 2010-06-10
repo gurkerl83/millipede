@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/davs
+END
+DAVSSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/davs/DAVSSession.java
+END
+DAVSPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/davs/DAVSPath.java
+END

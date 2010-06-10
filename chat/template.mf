@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.chat
+Bundle-Name: ${project.name}
+Bundle-Activator: com.aelitis.azureus.plugins.chat.ChatPlugin
+Excluded-Exports: 
+ *.internal*
+Unversioned-Imports: 
+ *

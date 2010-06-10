@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat
+END
+LocaleUtilDecoderCandidate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilDecoderCandidate.java
+END
+LocaleUtilDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilDecoder.java
+END
+LocaleUtilDecoderFallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilDecoderFallback.java
+END
+LocaleUtilEncodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilEncodingException.java
+END
+LocaleUtilListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilListener.java
+END
+LocaleUtilDecoderReal.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtilDecoderReal.java
+END
+MessageText.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/MessageText.java
+END
+LocaleTorrentUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleTorrentUtil.java
+END
+LocaleUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/internat/LocaleUtil.java
+END

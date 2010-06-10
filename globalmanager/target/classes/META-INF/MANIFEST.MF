@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: org.gudy.azureus2.core3.download;version="1.0.0";uses:
+ ="org.gudy.azureus2.core3.global,org.gudy.azureus2.core3.global.impl"
+ ,org.gudy.azureus2.core3.global;version="1.0.0";uses:="org.gudy.azure
+ us2.core3.download,org.gudy.azureus2.plugins.dht.mainline,org.millipe
+ de.download",org.gudy.azureus2.core3.global.impl;version="1.0.0";uses
+ :="org.gudy.azureus2.core3.download,org.gudy.azureus2.core3.global,or
+ g.gudy.azureus2.core3.torrent,org.gudy.azureus2.core3.util,org.gudy.a
+ zureus2.plugins.dht.mainline,org.millipede.download,org.osgi.framewor
+ k,org.torrent.internal.client",org.millipede.download;version="1.0.0"
+ ;uses:="org.gudy.azureus2.core3.download,org.gudy.azureus2.core3.glob
+ al,org.gudy.azureus2.core3.torrent,org.gudy.azureus2.core3.torrentdow
+ nloader,org.gudy.azureus2.core3.util,org.gudy.azureus2.plugins.downlo
+ ad,org.osgi.service.event"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: globalmanager
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.gudy.azureus2.core3.global.impl.GlobalManagerImp
+ l
+Bundle-SymbolicName: org.millipede.globalmanager
+Import-Package: org.gudy.azureus2.core3.config,org.gudy.azureus2.core3
+ .download,org.gudy.azureus2.core3.download.impl,org.gudy.azureus2.cor
+ e3.global,org.gudy.azureus2.core3.torrent,org.gudy.azureus2.core3.tor
+ rentdownloader,org.gudy.azureus2.core3.torrentdownloader.impl,org.gud
+ y.azureus2.core3.util,org.gudy.azureus2.plugins.dht.mainline,org.gudy
+ .azureus2.plugins.download,org.osgi.framework,org.osgi.service.event,
+ org.torrent.data,org.torrent.internal.client,org.torrent.internal.dat
+ a,org.torrent.transfer
+Provide-Package: org.milipede.traydock.merapi.messages;specification-v
+ ersion="0.0.0", org.milipede.traydock.merapi.handlers;specification-v
+ ersion="0.0.0", org.milipede.merapi.handlers;specification-version="0
+ .0.0", org.milipede.merapi.messages;specification-version="0.0.0"
+

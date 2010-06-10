@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic
+END
+GenericMessageHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic/GenericMessageHandler.java
+END
+GenericMessageConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic/GenericMessageConnection.java
+END
+GenericMessageEndpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic/GenericMessageEndpoint.java
+END
+GenericMessageConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic/GenericMessageConnectionListener.java
+END
+GenericMessageRegistration.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/15/trunk/millipede/messagemanager/src/main/java/org/gudy/azureus2/plugins/messaging/generic/GenericMessageRegistration.java
+END

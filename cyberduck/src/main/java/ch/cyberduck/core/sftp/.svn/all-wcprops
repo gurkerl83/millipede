@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/sftp
+END
+SFTPSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/sftp/SFTPSession.java
+END
+SCPInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/sftp/SCPInputStream.java
+END
+SCPOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/sftp/SCPOutputStream.java
+END
+SFTPInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/5630/trunk/source/ch/cyberduck/core/sftp/SFTPInputStream.java
+END
+SFTPOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/sftp/SFTPOutputStream.java
+END
+SFTPPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/sftp/SFTPPath.java
+END

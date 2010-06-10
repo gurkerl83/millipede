@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/http
+END
+HTTPSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/http/HTTPSession.java
+END
+StickyHostConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/http/StickyHostConfiguration.java
+END

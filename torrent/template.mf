@@ -1,0 +1,12 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.torrent
+Bundle-Name: ${project.name}
+Bundle-Activator: org.torrent.internal.client.Main
+Bundle-Version: 1.0.0
+Export-Package: org.merapi.helper.handlers;version="1.0.0",
+ org.merapi.helper.messages;version="1.0.0",
+ org.torrent.internal.client;version="1.0.0",
+ org.torrent.internal.data;version="1.0.0",
+ org.torrent.transfer;version="1.0.0"
+Import-Package: org.merapi.internal;version="[0.0.0,1.0.0]"
+

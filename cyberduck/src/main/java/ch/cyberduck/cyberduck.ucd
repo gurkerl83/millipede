@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="cyberduck" size="1656,1667" id="ch.cyberduck" metadata="uml2-1.0" initialized="true" scrolledY="451" tag="10" key="32303037303533312D31302063796265726475636B">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0" name="BrowserTableDataSource" location="293,217" size="203,247" id="ch.cyberduck/BrowserTableDataSource" runTimeClassModel="iCON_COLUMN,BrowserTableDataSource(Lch.cyberduck.BrowserController;),contains(Lch.cyberduck.core.Path;),kIND_COLUMN,pERMISSIONS_COLUMN,oWNER_COLUMN,gROUP_COLUMN,mODIFIED_COLUMN,fILENAME_COLUMN,indexOf(Lch.cyberduck.core.Path;),sIZE_COLUMN">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="fILENAME_COLUMN" id="ch.cyberduck/BrowserTableDataSource#fILENAME_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gROUP_COLUMN" id="ch.cyberduck/BrowserTableDataSource#gROUP_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iCON_COLUMN" id="ch.cyberduck/BrowserTableDataSource#iCON_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="kIND_COLUMN" id="ch.cyberduck/BrowserTableDataSource#kIND_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mODIFIED_COLUMN" id="ch.cyberduck/BrowserTableDataSource#mODIFIED_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oWNER_COLUMN" id="ch.cyberduck/BrowserTableDataSource#oWNER_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pERMISSIONS_COLUMN" id="ch.cyberduck/BrowserTableDataSource#pERMISSIONS_COLUMN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIZE_COLUMN" id="ch.cyberduck/BrowserTableDataSource#sIZE_COLUMN"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,54">
+      <children xsi:type="editmodel:MethodEditModel" name="BrowserTableDataSource" id="ch.cyberduck/BrowserTableDataSource#BrowserTableDataSource(Lch.cyberduck.BrowserController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="ch.cyberduck/BrowserTableDataSource#contains(Lch.cyberduck.core.Path;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="indexOf" id="ch.cyberduck/BrowserTableDataSource#indexOf(Lch.cyberduck.core.Path;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/ProxyController&lt;-ch.cyberduck/BrowserTableDataSource" source="//@children.0" target="//@children.19/@sourceConnections.0" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BrowserOutlineViewModel" location="50,514" size="211,67" id="ch.cyberduck/BrowserOutlineViewModel" runTimeClassModel="BrowserOutlineViewModel(Lch.cyberduck.BrowserController;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,18">
+      <children xsi:type="editmodel:MethodEditModel" name="BrowserOutlineViewModel" id="ch.cyberduck/BrowserOutlineViewModel#BrowserOutlineViewModel(Lch.cyberduck.BrowserController;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/BrowserTableDataSource&lt;-ch.cyberduck/BrowserOutlineViewModel" source="//@children.1" target="//@children.11/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BrowserController" location="322,739" size="195,607" id="ch.cyberduck/BrowserController" runTimeClassModel="connectButtonClicked(),workdir(),isConnected(),disconnectButtonClicked(),getForwardPath(),getSelectedBrowserDelegate(),deletePaths(Ljava.util.List;),isActivityRunning(),clearBackHistory(),showHiddenFiles,BrowserController(),deletePath(Lch.cyberduck.core.Path;),interruptButtonClicked(),getSelectedBrowserView(),unmount(),getPreviousPath(),setWorkdir(Lch.cyberduck.core.Path;Ljava.util.List;),getSelectedPath(),forwardHistory,setBrowserListView(),getSelectedBrowserModel(),addPathToHistory(Lch.cyberduck.core.Path;),setWorkdir(Lch.cyberduck.core.Path;Lch.cyberduck.core.Path;),unmount(Lch.cyberduck.SheetCallback;Ljava.lang.Runnable;),isMounted(),encodingChanged(Ljava.lang.String;),unmount(Ljava.lang.Runnable;),clearForwardHistory(),hasSession(),mount(Lch.cyberduck.core.Host;),reloadData(Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="forwardHistory" id="ch.cyberduck/BrowserController#forwardHistory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="showHiddenFiles" id="ch.cyberduck/BrowserController#showHiddenFiles"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="172,522">
+      <children xsi:type="editmodel:MethodEditModel" name="BrowserController" id="ch.cyberduck/BrowserController#BrowserController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addPathToHistory" id="ch.cyberduck/BrowserController#addPathToHistory(Lch.cyberduck.core.Path;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearBackHistory" id="ch.cyberduck/BrowserController#clearBackHistory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearForwardHistory" id="ch.cyberduck/BrowserController#clearForwardHistory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="connectButtonClicked" id="ch.cyberduck/BrowserController#connectButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deletePath" id="ch.cyberduck/BrowserController#deletePath(Lch.cyberduck.core.Path;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deletePaths" id="ch.cyberduck/BrowserController#deletePaths(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="disconnectButtonClicked" id="ch.cyberduck/BrowserController#disconnectButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="encodingChanged" id="ch.cyberduck/BrowserController#encodingChanged(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getForwardPath" id="ch.cyberduck/BrowserController#getForwardPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPreviousPath" id="ch.cyberduck/BrowserController#getPreviousPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelectedBrowserDelegate" id="ch.cyberduck/BrowserController#getSelectedBrowserDelegate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelectedBrowserModel" id="ch.cyberduck/BrowserController#getSelectedBrowserModel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelectedBrowserView" id="ch.cyberduck/BrowserController#getSelectedBrowserView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelectedPath" id="ch.cyberduck/BrowserController#getSelectedPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasSession" id="ch.cyberduck/BrowserController#hasSession()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="interruptButtonClicked" id="ch.cyberduck/BrowserController#interruptButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isActivityRunning" id="ch.cyberduck/BrowserController#isActivityRunning()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isConnected" id="ch.cyberduck/BrowserController#isConnected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMounted" id="ch.cyberduck/BrowserController#isMounted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mount" id="ch.cyberduck/BrowserController#mount(Lch.cyberduck.core.Host;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reloadData" id="ch.cyberduck/BrowserController#reloadData(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setBrowserListView" id="ch.cyberduck/BrowserController#setBrowserListView()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWorkdir" id="ch.cyberduck/BrowserController#setWorkdir(Lch.cyberduck.core.Path;Lch.cyberduck.core.Path;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWorkdir" id="ch.cyberduck/BrowserController#setWorkdir(Lch.cyberduck.core.Path;Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unmount" id="ch.cyberduck/BrowserController#unmount(Ljava.lang.Runnable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unmount" id="ch.cyberduck/BrowserController#unmount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unmount" id="ch.cyberduck/BrowserController#unmount(Lch.cyberduck.SheetCallback;Ljava.lang.Runnable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="workdir" id="ch.cyberduck/BrowserController#workdir()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/WindowController&lt;-ch.cyberduck/BrowserController" source="//@children.2" target="//@children.14/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SyncPromptModel" location="820,739" size="158,67" id="ch.cyberduck/SyncPromptModel" runTimeClassModel="SyncPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,18">
+      <children xsi:type="editmodel:MethodEditModel" name="SyncPromptModel" id="ch.cyberduck/SyncPromptModel#SyncPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/TransferPromptModel&lt;-ch.cyberduck/SyncPromptModel" source="//@children.3" target="//@children.9/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="OutlineDataSource" location="706,217" size="162,29" id="ch.cyberduck/OutlineDataSource" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/ProxyController&lt;-ch.cyberduck/OutlineDataSource" source="//@children.4" target="//@children.19/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0" name="TransferPromptModel" location="1226,514" size="178,85" id="ch.cyberduck/TransferPromptModel" runTimeClassModel="add(Lch.cyberduck.core.Path;),TransferPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TransferPromptModel" id="ch.cyberduck/TransferPromptModel#TransferPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="ch.cyberduck/TransferPromptModel#add(Lch.cyberduck.core.Path;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/OutlineDataSource&lt;-ch.cyberduck/TransferPromptModel" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AbstractTableDelegate" location="50,217" size="213,103" id="ch.cyberduck/AbstractTableDelegate" runTimeClassModel="isSortedAscending(),getSortingComparator(),setSortedAscending(Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getSortingComparator" id="ch.cyberduck/AbstractTableDelegate#getSortingComparator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSortedAscending" id="ch.cyberduck/AbstractTableDelegate#isSortedAscending()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSortedAscending" id="ch.cyberduck/AbstractTableDelegate#setSortedAscending(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/ProxyController&lt;-ch.cyberduck/AbstractTableDelegate" source="//@children.6" target="//@children.19/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/TableDelegate&lt;-ch.cyberduck/AbstractTableDelegate" source="//@children.6" target="//@children.17" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="106,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,117"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SheetController" location="50,739" size="242,139" id="ch.cyberduck/SheetController" runTimeClassModel="isSingleton(),returnCode(),SheetController(Lch.cyberduck.WindowController;),beginSheet(),sheetDidClose_returnCode_contextInfo(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="219,90">
+      <children xsi:type="editmodel:MethodEditModel" name="SheetController" id="ch.cyberduck/SheetController#SheetController(Lch.cyberduck.WindowController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="beginSheet" id="ch.cyberduck/SheetController#beginSheet()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSingleton" id="ch.cyberduck/SheetController#isSingleton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="returnCode" id="ch.cyberduck/SheetController#returnCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sheetDidClose_returnCode_contextInfo" id="ch.cyberduck/SheetController#sheetDidClose_returnCode_contextInfo(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/WindowController&lt;-ch.cyberduck/SheetController" source="//@children.7" target="//@children.14/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="121,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TransferTableDataSource" location="1434,514" size="202,139" id="ch.cyberduck/TransferTableDataSource" runTimeClassModel="setFilter(Ljava.lang.String;),getController(I),pROGRESS_COLUMN,TransferTableDataSource(),getController(Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="pROGRESS_COLUMN" id="ch.cyberduck/TransferTableDataSource#pROGRESS_COLUMN"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,72">
+      <children xsi:type="editmodel:MethodEditModel" name="TransferTableDataSource" id="ch.cyberduck/TransferTableDataSource#TransferTableDataSource()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getController" id="ch.cyberduck/TransferTableDataSource#getController(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getController" id="ch.cyberduck/TransferTableDataSource#getController(Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFilter" id="ch.cyberduck/TransferTableDataSource#setFilter(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/ListDataSource&lt;-ch.cyberduck/TransferTableDataSource" source="//@children.8" target="//@children.16" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="UploadPromptModel" location="1229,739" size="172,67" id="ch.cyberduck/UploadPromptModel" runTimeClassModel="UploadPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,18">
+      <children xsi:type="editmodel:MethodEditModel" name="UploadPromptModel" id="ch.cyberduck/UploadPromptModel#UploadPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.15/@sourceConnections.0 //@children.3/@sourceConnections.0" autoLocated="true" id="ch.cyberduck/TransferPromptModel&lt;-ch.cyberduck/UploadPromptModel" source="//@children.9" target="//@children.5" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainController" location="887,514" size="309,175" id="ch.cyberduck/MainController" runTimeClassModel="newDocument(),MainController(),getBrowsers(),availableCharsets(),handleEvent(Lorg.osgi.service.event.Event;),newDocument(Z),applicationShouldHandleReopen_hasVisibleWindows(),applicationDidFinishLaunching()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="286,126">
+      <children xsi:type="editmodel:MethodEditModel" name="MainController" id="ch.cyberduck/MainController#MainController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="applicationDidFinishLaunching" id="ch.cyberduck/MainController#applicationDidFinishLaunching()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="applicationShouldHandleReopen_hasVisibleWindows" id="ch.cyberduck/MainController#applicationShouldHandleReopen_hasVisibleWindows()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="availableCharsets" id="ch.cyberduck/MainController#availableCharsets()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="handleEvent" id="ch.cyberduck/MainController#handleEvent(Lorg.osgi.service.event.Event;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newDocument" id="ch.cyberduck/MainController#newDocument()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="newDocument" id="ch.cyberduck/MainController#newDocument(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.13/@sourceConnections.0" autoLocated="true" id="ch.cyberduck/BundleController&lt;-ch.cyberduck/MainController" source="//@children.10" target="//@children.19" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,67" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BrowserListViewModel" location="291,514" size="189,85" id="ch.cyberduck/BrowserListViewModel" runTimeClassModel="BrowserListViewModel(Lch.cyberduck.BrowserController;),numberOfRowsInTableView()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,36">
+      <children xsi:type="editmodel:MethodEditModel" name="BrowserListViewModel" id="ch.cyberduck/BrowserListViewModel#BrowserListViewModel(Lch.cyberduck.BrowserController;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="numberOfRowsInTableView" id="ch.cyberduck/BrowserListViewModel#numberOfRowsInTableView()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.1/@sourceConnections.0" autoLocated="true" id="ch.cyberduck/BrowserTableDataSource&lt;-ch.cyberduck/BrowserListViewModel" source="//@children.11" target="//@children.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,247" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ProgressController" location="697,514" size="160,85" id="ch.cyberduck/ProgressController" runTimeClassModel="ProgressController(Lch.cyberduck.core.Transfer;),awakeFromNib()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ProgressController" id="ch.cyberduck/ProgressController#ProgressController(Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="awakeFromNib" id="ch.cyberduck/ProgressController#awakeFromNib()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/BundleController&lt;-ch.cyberduck/ProgressController" source="//@children.12" target="//@children.10/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="WindowController" location="510,514" size="157,139" id="ch.cyberduck/WindowController" runTimeClassModel="isSingleton(),invoke(Lch.cyberduck.core.threading.MainAction;Z),addListener(Lch.cyberduck.WindowListener;),WindowController(),removeListener(Lch.cyberduck.WindowListener;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,90">
+      <children xsi:type="editmodel:MethodEditModel" name="WindowController" id="ch.cyberduck/WindowController#WindowController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addListener" id="ch.cyberduck/WindowController#addListener(Lch.cyberduck.WindowListener;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="invoke" id="ch.cyberduck/WindowController#invoke(Lch.cyberduck.core.threading.MainAction;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSingleton" id="ch.cyberduck/WindowController#isSingleton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeListener" id="ch.cyberduck/WindowController#removeListener(Lch.cyberduck.WindowListener;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/BundleController&lt;-ch.cyberduck/WindowController" source="//@children.13" target="//@children.10/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TransferController" location="547,739" size="185,445" id="ch.cyberduck/TransferController" runTimeClassModel="revealButtonClicked(),searchButtonClicked(),queueSizeStepperChanged(),startTransfer(Lch.cyberduck.core.Transfer;),stopButtonClicked(),stopAllButtonClicked(),isSingleton(),setQueueTable(),filterField,openButtonClicked(),clearButtonClicked(),reloadButtonClicked(),resumeButtonClicked(),trashButtonClicked(),bandwidthPopupChanged(),localField,addTransfer(Lch.cyberduck.core.Transfer;),paste(),deleteButtonClicked(),urlField,TransferController(),removeTransfer(Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="filterField" id="ch.cyberduck/TransferController#filterField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="localField" id="ch.cyberduck/TransferController#localField"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="urlField" id="ch.cyberduck/TransferController#urlField"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,342">
+      <children xsi:type="editmodel:MethodEditModel" name="TransferController" id="ch.cyberduck/TransferController#TransferController()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTransfer" id="ch.cyberduck/TransferController#addTransfer(Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bandwidthPopupChanged" id="ch.cyberduck/TransferController#bandwidthPopupChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearButtonClicked" id="ch.cyberduck/TransferController#clearButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deleteButtonClicked" id="ch.cyberduck/TransferController#deleteButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSingleton" id="ch.cyberduck/TransferController#isSingleton()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="openButtonClicked" id="ch.cyberduck/TransferController#openButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paste" id="ch.cyberduck/TransferController#paste()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="queueSizeStepperChanged" id="ch.cyberduck/TransferController#queueSizeStepperChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reloadButtonClicked" id="ch.cyberduck/TransferController#reloadButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeTransfer" id="ch.cyberduck/TransferController#removeTransfer(Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resumeButtonClicked" id="ch.cyberduck/TransferController#resumeButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="revealButtonClicked" id="ch.cyberduck/TransferController#revealButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="searchButtonClicked" id="ch.cyberduck/TransferController#searchButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setQueueTable" id="ch.cyberduck/TransferController#setQueueTable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startTransfer" id="ch.cyberduck/TransferController#startTransfer(Lch.cyberduck.core.Transfer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopAllButtonClicked" id="ch.cyberduck/TransferController#stopAllButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopButtonClicked" id="ch.cyberduck/TransferController#stopButtonClicked()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="trashButtonClicked" id="ch.cyberduck/TransferController#trashButtonClicked()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.7/@sourceConnections.0" autoLocated="true" id="ch.cyberduck/WindowController&lt;-ch.cyberduck/TransferController" source="//@children.14" target="//@children.13" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,139" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DownloadPromptModel" location="1008,739" size="191,67" id="ch.cyberduck/DownloadPromptModel" runTimeClassModel="DownloadPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,18">
+      <children xsi:type="editmodel:MethodEditModel" name="DownloadPromptModel" id="ch.cyberduck/DownloadPromptModel#DownloadPromptModel(Lch.cyberduck.TransferPromptController;Lch.cyberduck.core.Transfer;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/TransferPromptModel&lt;-ch.cyberduck/DownloadPromptModel" source="//@children.15" target="//@children.9/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="ListDataSource" location="1466,217" size="138,29" id="ch.cyberduck/ListDataSource" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ch.cyberduck/ProxyController&lt;-ch.cyberduck/ListDataSource" source="//@children.16" target="//@children.19/@sourceConnections.0" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.1" name="TableDelegate" location="75,50" size="162,117" id="ch.cyberduck/TableDelegate" runTimeClassModel="isSortedAscending(),getSortingComparator(),tooltip(LE;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getSortingComparator" id="ch.cyberduck/TableDelegate#getSortingComparator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSortedAscending" id="ch.cyberduck/TableDelegate#isSortedAscending()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tooltip" id="ch.cyberduck/TableDelegate#tooltip(LE;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0" name="ProxyController" location="623,50" size="142,85" id="ch.cyberduck/ProxyController" runTimeClassModel="invoke(Lch.cyberduck.core.threading.MainAction;Z),isMainThread()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:MethodEditModel" name="invoke" id="ch.cyberduck/ProxyController#invoke(Lch.cyberduck.core.threading.MainAction;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMainThread" id="ch.cyberduck/ProxyController#isMainThread()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="BundleController" location="526,217" size="150,67" id="ch.cyberduck/BundleController" runTimeClassModel="awakeFromNib()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,18">
+      <children xsi:type="editmodel:MethodEditModel" name="awakeFromNib" id="ch.cyberduck/BundleController#awakeFromNib()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.16/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="ch.cyberduck/ProxyController&lt;-ch.cyberduck/BundleController" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,85" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

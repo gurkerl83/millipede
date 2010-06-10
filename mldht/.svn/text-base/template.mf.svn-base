@@ -1,0 +1,8 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.mldht
+Bundle-Name: ${project.name}
+Bundle-Activator: org.milipede.mldht.Main
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *

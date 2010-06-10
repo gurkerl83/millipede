@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Export-Package: lbms.plugins.mldht.azureus;version="1.0.0";uses:="lbms
+ .plugins.mldht.kad,org.gudy.azureus2.plugins,org.gudy.azureus2.plugin
+ s.dht.mainline,org.gudy.azureus2.plugins.download,org.gudy.azureus2.p
+ lugins.torrent",lbms.plugins.mldht.kad;version="1.0.0";uses:="lbms.pl
+ ugins.mldht.kad.messages",lbms.plugins.mldht.kad.messages;version="1.
+ 0.0";uses:="lbms.plugins.mldht.kad",org.gudy.azureus2.plugins.downloa
+ d;version="1.0.0",org.milipede.mldht;version="1.0.0";uses:="lbms.plug
+ ins.mldht.kad,org.osgi.framework"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: mldht
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.milipede.mldht.Main
+Bundle-SymbolicName: org.millipede.mldht
+Import-Package: com.aelitis.azureus.core,org.chris.portmapper.model,or
+ g.chris.portmapper.router,org.gudy.azureus2.core3.global,org.gudy.azu
+ reus2.core3.util,org.gudy.azureus2.plugins,org.gudy.azureus2.plugins.
+ dht.mainline,org.gudy.azureus2.plugins.download,org.gudy.azureus2.plu
+ gins.torrent,org.milipede.portmapper,org.osgi.framework,org.torrent.i
+ nternal.data
+

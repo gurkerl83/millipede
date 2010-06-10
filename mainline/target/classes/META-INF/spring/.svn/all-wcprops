@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/millipede/mainline/src/main/resources/META-INF/spring
+END
+bundle-context-osgi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/18/trunk/millipede/mainline/src/main/resources/META-INF/spring/bundle-context-osgi.xml
+END
+bundle-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/18/trunk/millipede/mainline/src/main/resources/META-INF/spring/bundle-context.xml
+END

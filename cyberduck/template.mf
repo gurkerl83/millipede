@@ -1,0 +1,4 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.cyberduck
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/ftps
+END
+FTPSSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/ftps/FTPSSession.java
+END
+FTPSControlSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftps/FTPSControlSocket.java
+END
+FTPSPath.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftps/FTPSPath.java
+END
+FTPSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/5746/trunk/source/ch/cyberduck/core/ftps/FTPSClient.java
+END

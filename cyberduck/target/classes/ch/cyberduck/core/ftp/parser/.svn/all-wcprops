@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser
+END
+EPLFFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/EPLFFTPEntryParser.java
+END
+CompositeFileEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/CompositeFileEntryParser.java
+END
+LaxUnixFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/LaxUnixFTPEntryParser.java
+END
+RumpusFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/RumpusFTPEntryParser.java
+END
+UnitreeFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/UnitreeFTPEntryParser.java
+END
+CommonUnixFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/CommonUnixFTPEntryParser.java
+END
+TrellixFTPEntryParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/ftp/parser/TrellixFTPEntryParser.java
+END

@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Export-Package: org.gudy.azureus2;version="1.0.0";uses:="org.osgi.fram
+ ework",org.gudy.azureus2.plugins.messaging;version="1.0.0";uses:="org
+ .gudy.azureus2.plugins.download,org.gudy.azureus2.plugins.messaging.g
+ eneric,org.gudy.azureus2.plugins.network,org.gudy.azureus2.plugins.pe
+ ers",org.gudy.azureus2.plugins.messaging.generic;version="1.0.0";uses
+ :="org.gudy.azureus2.plugins.messaging,org.gudy.azureus2.plugins.util
+ s",org.gudy.azureus2.pluginsimpl.locale.messaging;version="1.0.0";use
+ s:="com.aelitis.azureus.core,com.aelitis.azureus.core.peermanager.mes
+ saging,org.gudy.azureus2.core3.util,org.gudy.azureus2.plugins.downloa
+ d,org.gudy.azureus2.plugins.messaging,org.gudy.azureus2.plugins.messa
+ ging.generic,org.gudy.azureus2.plugins.peers"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: messagemanager
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.gudy.azureus2.MessageActivator
+Bundle-SymbolicName: org.millipede.messagemanager
+Import-Package: com.aelitis.azureus.core,com.aelitis.azureus.core.peer
+ manager.messaging,org.gudy.azureus2.core3.util,org.gudy.azureus2.plug
+ ins.download,org.gudy.azureus2.plugins.network,org.gudy.azureus2.plug
+ ins.peers,org.gudy.azureus2.plugins.utils,org.osgi.framework
+

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus
+END
+Messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/Messages.properties
+END
+DHTAnnounceResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/DHTAnnounceResult.java
+END
+MainlineDHTProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/MainlineDHTProvider.java
+END
+MlDHTPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/MlDHTPlugin.java
+END
+Messages_it_IT.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/Messages_it_IT.properties
+END
+DHTPeer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/DHTPeer.java
+END
+TrackedTorrent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/TrackedTorrent.java
+END
+Tracker.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/Tracker.java
+END
+DelayedAnnounce.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/azureus/DelayedAnnounce.java
+END

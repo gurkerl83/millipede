@@ -1,0 +1,24 @@
+<projectDescription>
+  <name>cyberduck-bandwidththrottle-service</name>
+  <comment>Generated using Pax-Construct</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.ManifestBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.SchemaBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.maven.ide.eclipse.maven2Builder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.maven.ide.eclipse.maven2Nature</nature>
+    <nature>org.eclipse.pde.PluginNature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

@@ -1,0 +1,269 @@
+package org.torrent.internal.client;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+import org.chris.portmapper.model.PortMapping;
+import org.chris.portmapper.model.Protocol;
+import org.chris.portmapper.router.RouterException;
+import org.gudy.azureus2.core3.global.GlobalManager;
+import org.gudy.azureus2.plugins.download.Download;
+import org.gudy.azureus2.plugins.download.DownloadManager;
+import org.merapi.BridgeService;
+import org.merapi.helper.handlers.BarUpdateRequestHandler;
+import org.merapi.helper.handlers.ConfigurationRequestHandler;
+import org.merapi.helper.handlers.DLControlRequestHandler;
+import org.merapi.helper.handlers.DLControlRequestHandler_;
+import org.merapi.helper.handlers.DLControlService;
+import org.merapi.helper.messages.BarUpdateRespondMessage;
+import org.merapi.helper.messages.DLControlMessage;
+import org.merapi.internal.Bridge;
+import org.milipede.portmapper.PortMapperService;
+import org.milipede.portmapper.PortMapper;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceReference;
+import org.torrent.client.MainService;
+
+public class Main implements MainService, BundleActivator {
+
+    //private BridgeService bridge;
+    //private DLControlService controlHandler;
+    
+//    public void setDinnerService(DLControlService ds) {
+//    	controlHandler = ds;
+//    }
+
+	
+	
+	private static Main instance = new Main();
+
+	/**
+	 * Statische Methode, liefert die einzige Instanz dieser Klasse zurück
+	 */
+	public static Main getInstance() {
+		return instance;
+	}
+
+	private File file;
+
+	 private MainService service;
+
+//	/**
+//	 * Default-Konstruktor, der nicht außerhalb dieser Klasse aufgerufen werden
+//	 * kann
+//	 */
+//	public Main() {
+////		service = new Main_();
+//	}
+	
+	public static ConcurrentMap<String, Callable<?>> queue = new ConcurrentHashMap<String, Callable<?>>();
+	
+	//Executors.newFixedThreadPool(2);
+	private static ExecutorService executor = new ScheduledThreadPoolExecutor(10);
+	static Future<Download> future;
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String [] args) {
+		// TODO Auto-generated method stub
+
+        //addTorrentTask("DJ Serm  Southern Alliance Mixtape Present  City Lights Vol1  Samhoody.com [mininova].torrent");
+		//startTorrentTask("C:\\Development\\testDownloads\\[GoGoAnime.com]  Naruto Shippuuden -  122 Eng Sub [480p].avi [mininova].torrent");
+//		Main_.getInstance().addTorrentTask("C:\\Development\\testDownloads\\StargateAtlantis-Staffel05-Folge04@www.torrent.to.torrent");
+//		Main_.getInstance().addTorrentTask("C:\\Development\\testDownloads\\The.Daily.Show.2009.08.20.(PDTV-FQM)[VTV].torrent");
+		
+//		Main_.getInstance().startTorrentTask("C:\\Development\\testDownloads\\StargateAtlantis-Staffel05-Folge04@www.torrent.to.torrent");
+//		Main_.getInstance().startTorrentTask("C:\\Development\\testDownloads\\The.Daily.Show.2009.08.20.(PDTV-FQM)[VTV].torrent");
+		new Main().go();
+	}
+
+    @Override
+    public void go() {
+//        Bridge.open();
+        
+//        this.addTorrentTask("C:\\Development\\testDownloads\\StargateAtlantis-Staffel05-Folge04@www.torrent.to.torrent");
+//        this.addTorrentTask("C:\\Development\\testDownloads\\The.Daily.Show.2009.08.20.(PDTV-FQM)[VTV].torrent");
+        
+//        try {
+//			this.start("C:\\Development\\testDownloads\\The.Daily.Show.2009.08.20.(PDTV-FQM)[VTV].torrent");
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//        try {
+//			this.start("C:\\Development\\testDownloads\\[Eclipse] Fullmetal Alchemist Brotherhood - 24 (1280x720 h264) [1867BF95].mkv [mininova].torrent");
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//        
+//		try {
+//			this.start("C:\\Development\\testDownloads\\RentBoss.v3.40.0.54.Cracked-DJiNN.torrent");
+//		} catch (IOException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+
+//		DLControlRequestHandler_.getInstance();
+        BarUpdateRequestHandler.getInstance();
+		
+        ConfigurationRequestHandler.getInstance();
+
+        
+//        PortMapperService mapper = PortMapper.getInstance();
+//        mapper.loadSettings();
+//        //mapper.setCustomConfigDir();
+//        System.out.println("local host address: " + mapper.getLocalHostAddress());
+//        
+//        try {
+//			
+//        	boolean connected = mapper.connectRouter();
+//        	if (connected == true) {
+//        		System.out.println(mapper.getRouter().getExternalIPAddress());
+//        		
+//        		
+//        		PortMapping mapping = new PortMapping(Protocol.TCP, null, 6991, mapper.getLocalHostAddress(), 6991, "torrent");
+//        		mapper.getRouter().addPortMapping(mapping);
+//        		
+//        		
+//        	}
+//		} catch (RouterException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
+        //        
+//        PortMapper mapper = PortMapper.getInstance();
+//        try {
+//			boolean connected = mapper.connectRouter();
+//		} catch (RouterException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+        
+//        UPnPPortForward UPNP = new UPnPPortForward(6991);
+//		UPNP.start();
+		
+        //addTorrentTask(controlHandler.getFile().getAbsolutePath());
+
+        //addTorrentTask("DJ Serm  Southern Alliance Mixtape Present  City Lights Vol1  Samhoody.com [mininova].torrent");
+		//addTorrentTask("[GoGoAnime.com]  Naruto Shippuuden -  122 Eng Sub [480p].avi [mininova].torrent");
+        
+    }
+
+    private Callable<?> callable;
+    
+    @Override
+	public void addTorrentTask(String key) {
+		callable = new Client(key);
+		queue.put(key, callable );
+		startTorrentTask(key);
+	}
+    
+    @Override
+	public void removeTorrentTask(String key) {
+		queue.remove(key);
+		//shutdownTorrentTask(key);
+	}
+	
+    public Future<Download> startTorrentTask(String key) {
+		Callable<?> callable = new Client(key);
+		queue.put(key, callable );
+		future = (Future<Download>) executor.submit(queue.get(key));
+		try {
+			System.out.println("Future value: " + future.get());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return future;
+	}
+
+	
+	public void shutdownTorrentTask(String key) {
+	}
+
+	public void shutdownDownloadProgress() {
+		executor.shutdown();
+	}
+
+	
+	 public Future<Download> starter(String key) throws IOException {
+//		    int i=0;
+//		    while (!executor.isShutdown())
+		      future = executor.submit(new Client(key));
+
+//		      new Thread((Runnable) executor.submit(new Client<Object>(key)));
+
+         return future;
+         }
+
+		  public void shutdown() throws InterruptedException {
+		    executor.shutdown();
+		    executor.awaitTermination(30, TimeUnit.SECONDS);
+		    executor.shutdownNow();
+		  }
+
+    public static GlobalManager gm;
+
+    @Override
+    public void start(BundleContext context) throws Exception {
+        
+//        DLControlRequestHandler.getInstance();
+//        ServiceReference gmRef = context.getServiceReference(GlobalManager.class.getName());
+//        gm = (GlobalManager) context.getService(gmRef);
+//
+//        ServiceReference dlmgrRef = context.getServiceReference(org.gudy.azureus2.plugins.download.DownloadManager.class.getName());
+//        DownloadManager dlmgr = (DownloadManager) context.getService(dlmgrRef);
+
+//        Bridge.getInstance().registerMessageHandler(DLControlMessage.DL_CONTROL, new DLControlRequestHandler(gm, dlmgr));
+        Bridge.getInstance().registerMessageHandler(DLControlMessage.DL_CONTROL, new DLControlRequestHandler());
+        BarUpdateRequestHandler.getInstance();
+
+        ConfigurationRequestHandler.getInstance();
+        PortMapperService mapper = PortMapper.getInstance();
+        mapper.loadSettings();
+        //mapper.setCustomConfigDir();
+        System.out.println("local host address: " + mapper.getLocalHostAddress());
+
+        try {
+
+        	boolean connected = mapper.connectRouter();
+        	if (connected == true) {
+        		System.out.println(mapper.getRouter().getExternalIPAddress());
+
+
+        		PortMapping mapping = new PortMapping(Protocol.TCP, null, 6991, mapper.getLocalHostAddress(), 6991, "torrent");
+        		mapper.getRouter().addPortMapping(mapping);
+
+
+        	}
+		} catch (RouterException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+    }
+
+    @Override
+    public void stop(BundleContext arg0) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+//    public void setControlHandler(DLControlService dlControlMessageHandler) {
+//        this.controlHandler = dlControlMessageHandler;
+//    }
+//
+//    public DLControlService getControlHandler() {
+//        return this.controlHandler;
+//    }
+}

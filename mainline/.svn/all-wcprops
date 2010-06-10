@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/18/trunk/millipede/mainline
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/18/trunk/millipede/mainline/build.properties
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18/trunk/millipede/mainline/pom.xml
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/millipede/mainline/readme.txt
+END
+template.mf
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18/trunk/millipede/mainline/template.mf
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/14/trunk/millipede/globalmanager/src/main/java/org/milipede/merapi/messages
+END
+DLControlRespondMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/14/trunk/millipede/globalmanager/src/main/java/org/milipede/merapi/messages/DLControlRespondMessage.java
+END
+DLControlMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/14/trunk/millipede/globalmanager/src/main/java/org/milipede/merapi/messages/DLControlMessage.java
+END

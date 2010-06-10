@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/model
+END
+PortMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/model/PortMapping.java
+END
+Protocol.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/model/Protocol.java
+END
+SinglePortMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/model/SinglePortMapping.java
+END
+PortMappingPreset.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/model/PortMappingPreset.java
+END

@@ -1,0 +1,33 @@
+<projectDescription>
+  <name>chat</name>
+  <comment>Generated using Pax-Construct</comment>
+  <projects>
+    <project>azureusAPI</project>
+    <project>azureusImpl</project>
+    <project>cycle</project>
+    <project>globalmanager</project>
+    <project>merapi</project>
+    <project>messagemanager</project>
+    <project>portmapper</project>
+    <project>torrent</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.ManifestBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.eclipse.pde.SchemaBuilder</name>
+    </buildCommand>
+    <buildCommand>
+      <name>org.maven.ide.eclipse.maven2Builder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.maven.ide.eclipse.maven2Nature</nature>
+    <nature>org.eclipse.pde.PluginNature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging
+END
+MessageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging/MessageManager.java
+END
+MessageStreamEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging/MessageStreamEncoder.java
+END
+MessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging/MessageException.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging/Message.java
+END
+MessageStreamDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/peermanager/messaging/MessageStreamDecoder.java
+END

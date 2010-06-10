@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Export-Package: com.aelitis.azureus.core;version="1.0.0";uses:="org.gu
+ dy.azureus2.core3.global",com.aelitis.azureus.core.impl;version="1.0.
+ 0";uses:="com.aelitis.azureus.core,org.gudy.azureus2.core3.global,org
+ .osgi.framework",org.gudy.azureus2.pluginsimpl.local;version="1.0.0";
+ uses:="com.aelitis.azureus.core,org.gudy.azureus2.plugins,org.gudy.az
+ ureus2.plugins.download,org.gudy.azureus2.plugins.torrent",org.gudy.a
+ zureus2.pluginsimpl.local.torrent;version="1.0.0";uses:="org.gudy.azu
+ reus2.plugins,org.gudy.azureus2.plugins.torrent"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: azureusImpl
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.aelitis.azureus.core.impl.AzureusCoreImpl
+Bundle-SymbolicName: org.gudy.azureusImpl
+Import-Package: org.gudy.azureus2.core3.config,org.gudy.azureus2.core3
+ .global,org.gudy.azureus2.plugins,org.gudy.azureus2.plugins.download,
+ org.gudy.azureus2.plugins.torrent,org.osgi.framework
+Provide-Package: org.milipede.merapi.messages;specification-version="0
+ .0.0", org.milipede.merapi.handlers;specification-version="0.0.0"
+

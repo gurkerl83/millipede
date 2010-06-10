@@ -1,0 +1,34 @@
+package org.torrent.internal.data;
+
+public class FileInfo {
+
+	private final String fileName;
+	private final long length;
+
+	public FileInfo(String fileName, long length) {
+		this.fileName = fileName;
+		this.length = length;
+	}
+
+	public String getFileName() {
+		return fileName;
+	}
+
+	public long getLength() {
+		return length;
+	}
+
+	@Override
+	public int hashCode() {
+		return fileName.hashCode();
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof FileInfo) {
+			FileInfo o = (FileInfo) obj;
+			return fileName.equals(o.fileName) && length == o.length;
+		}
+		return false;
+	}
+}

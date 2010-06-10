@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo
+END
+TrackerVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo/TrackerVO.java
+END
+AllgemeinVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo/AllgemeinVO.java
+END
+PeersVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo/PeersVO.java
+END
+TeileVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo/TeileVO.java
+END
+DateienVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/vo/DateienVO.java
+END

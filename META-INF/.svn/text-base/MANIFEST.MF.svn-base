@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Unversioned-Imports: *
+Bundle-Classpath: .
+Built-By: gurkerl
+Build-Jdk: 1.6.0_18
+Spring-DM-Version: 1.0-SNAPSHOT
+Bundle-Name: submilli
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven
+Bundle-SymbolicName: submilli
+Archiver-Version: Plexus Archiver
+

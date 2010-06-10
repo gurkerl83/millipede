@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers
+END
+DLControlService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers/DLControlService.java
+END
+DLControlRequestHandler_.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers/DLControlRequestHandler_.java
+END
+DLControlRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers/DLControlRequestHandler.java
+END
+BarUpdateRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers/BarUpdateRequestHandler.java
+END
+ConfigurationRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/handlers/ConfigurationRequestHandler.java
+END

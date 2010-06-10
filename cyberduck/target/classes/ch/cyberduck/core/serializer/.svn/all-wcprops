@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer
+END
+TransferReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/TransferReaderFactory.java
+END
+SerializerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/SerializerFactory.java
+END
+Deserializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/Deserializer.java
+END
+HostWriterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/HostWriterFactory.java
+END
+Reader.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/Reader.java
+END
+HostReaderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/HostReaderFactory.java
+END
+Serializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/Serializer.java
+END
+TransferWriterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/TransferWriterFactory.java
+END
+DeserializerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/DeserializerFactory.java
+END
+Writer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/!svn/ver/5612/trunk/source/ch/cyberduck/core/serializer/Writer.java
+END

@@ -1,0 +1,29 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package org.milipede.mldht;
+
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+
+/**
+ *
+ * @author gurkerl
+ */
+public class SimpleSHA1 {
+
+    public static byte[] SHA1(String text)
+    throws NoSuchAlgorithmException, UnsupportedEncodingException  {
+    MessageDigest md;
+    md = MessageDigest.getInstance("SHA-1");
+    byte[] sha1hash = new byte[40];
+//    md.update(text.getBytes("iso-8859-1"), 0, text.length());
+    sha1hash = md.digest();
+    return sha1hash;
+    }
+
+}

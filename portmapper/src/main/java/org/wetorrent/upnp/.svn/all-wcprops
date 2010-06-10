@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp
+END
+GatewayDeviceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/GatewayDeviceHandler.java
+END
+GatewayDiscover.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/GatewayDiscover.java
+END
+GatewayDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/GatewayDevice.java
+END
+PortMappingEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/PortMappingEntry.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/Main.java
+END
+NameValueHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/NameValueHandler.java
+END
+WeUPnPException.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/wetorrent/upnp/WeUPnPException.java
+END

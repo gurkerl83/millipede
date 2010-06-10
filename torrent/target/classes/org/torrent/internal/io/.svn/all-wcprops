@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io
+END
+PieceVerifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/PieceVerifier.java
+END
+FileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/FileReader.java
+END
+FileMappedWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/FileMappedWriter.java
+END
+FileMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/FileMapper.java
+END
+DataWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/DataWriter.java
+END
+NBDataWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/NBDataWriter.java
+END
+DigesterService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/DigesterService.java
+END
+PieceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/PieceEvent.java
+END
+FileMappedReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/FileMappedReader.java
+END
+DataReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/DataReader.java
+END
+FileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/FileWriter.java
+END
+NBDataReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/io/NBDataReader.java
+END

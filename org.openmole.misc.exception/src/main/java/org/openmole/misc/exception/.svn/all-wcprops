@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/SimExplorer/!svn/ver/3147/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception
+END
+FatalError.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/SimExplorer/!svn/ver/3081/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception/FatalError.java
+END
+ExecutionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/SimExplorer/!svn/ver/3081/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception/ExecutionException.java
+END
+InternalProcessingError.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/SimExplorer/!svn/ver/3081/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception/InternalProcessingError.java
+END
+UserBadDataError.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/SimExplorer/!svn/ver/3081/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception/UserBadDataError.java
+END
+MultipleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/SimExplorer/!svn/ver/3147/trunk/openmole/misc/org.openmole.misc.exception/src/main/java/org/openmole/misc/exception/MultipleException.java
+END

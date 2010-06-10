@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/Connection.java
+END
+IncomingMessageQueueListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/IncomingMessageQueueListener.java
+END
+ConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/ConnectionListener.java
+END
+OutgoingMessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/OutgoingMessageQueue.java
+END
+OutgoingMessageQueueListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/OutgoingMessageQueueListener.java
+END
+Transport.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/Transport.java
+END
+IncomingMessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/IncomingMessageQueue.java
+END
+RawMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/network/RawMessage.java
+END

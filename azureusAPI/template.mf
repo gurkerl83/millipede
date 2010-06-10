@@ -1,0 +1,12 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.gudy.azureusAPI
+Bundle-Name: ${project.name}
+Bundle-Version: 1.0.0
+Export-Package: 
+ org.gudy.azureus2.core3.download,
+ com.aelitis.azureus.core.peermanager.messaging
+Import-Package: 
+ org.apache.log4j;version="[1.2.15,1.2.15]",
+ org.gudy.azureus2.plugins.messaging;version="[0.0.0,1.0.0]",
+ org.torrent.internal.data;version="[0.0.0,1.0.0]"
+

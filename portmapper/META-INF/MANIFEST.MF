@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Export-Package: org.chris.portmapper;version="1.0.0";uses:="org.chris.
+ portmapper.model",org.chris.portmapper.logging;version="1.0.0",org.ch
+ ris.portmapper.model;version="1.0.0";uses:="org.chris.portmapper,net.
+ sbbi.upnp.messages,org.chris.portmapper",org.chris.portmapper.router;
+ version="1.0.0";uses:="org.chris.portmapper.model,org.chris.portmappe
+ r.model",org.chris.portmapper.router.dummy;version="1.0.0";uses:="org
+ .chris.portmapper.model,org.chris.portmapper.router",org.chris.portma
+ pper.router.fokus;version="1.0.0",org.chris.portmapper.router.sbbi;ve
+ rsion="1.0.0";uses:="net.sbbi.upnp.impls,org.chris.portmapper.model,o
+ rg.chris.portmapper.router",org.chris.portmapper.router.weupnp;versio
+ n="1.0.0";uses:="org.chris.portmapper.model,org.chris.portmapper.rout
+ er,org.wetorrent.upnp",org.chris.portmapper.util;version="1.0.0",org.
+ milipede.portmapper;version="1.0.0";uses:="org.chris.portmapper,org.c
+ hris.portmapper.router",org.wetorrent.upnp;version="1.0.0";uses:="org
+ .xml.sax,org.xml.sax.helpers"
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: portmapper
+Bundle-ManifestVersion: 2
+Import-Package: net.sbbi.upnp.devices,net.sbbi.upnp.impls,net.sbbi.upn
+ p.messages,org.apache.log4j,org.xml.sax;version="0",org.xml.sax.helpe
+ rs;version="0"
+Bundle-SymbolicName: org.millipede.portmapper
+

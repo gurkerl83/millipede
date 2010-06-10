@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager
+END
+LimitedRateGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/LimitedRateGroup.java
+END
+ProtocolEndpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/ProtocolEndpoint.java
+END
+NetworkConnectionBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/NetworkConnectionBase.java
+END
+OutgoingMessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/OutgoingMessageQueue.java
+END
+TransportBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/TransportBase.java
+END
+NetworkConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/NetworkConnection.java
+END
+Transport.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/Transport.java
+END
+EventWaiter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/EventWaiter.java
+END
+IncomingMessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/IncomingMessageQueue.java
+END
+TransportEndpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/TransportEndpoint.java
+END
+ConnectionAttempt.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/ConnectionAttempt.java
+END
+RawMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/com/aelitis/azureus/core/networkmanager/RawMessage.java
+END

@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Export-Package: org.milipede.storage.layer;version="1.0.0";uses:="org.
+ milipede.storage.layer.domain,org.millipede.router.vo,quickbase.excep
+ tion",org.milipede.storage.layer.domain;version="1.0.0",org.milipede.
+ storage.layer.handler;version="1.0.0";uses:="ch.cyberduck.core.servic
+ e,ch.cyberduck.handler,ch.cyberduck.service,org.osgi.service.event",o
+ rg.milipede.storage.layer.merapi.handlers;version="1.0.0";uses:="org.
+ osgi.service.event",org.milipede.storage.layer.service;version="1.0.0
+ ",org.milipede.storage.layer.service.tracker;version="1.0.0";uses:="o
+ rg.milipede.storage.layer.handler,org.osgi.framework,org.osgi.util.tr
+ acker"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: storage-layer
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.storagelayer
+Import-Package: ch.cyberduck,ch.cyberduck.core,ch.cyberduck.core.servi
+ ce,ch.cyberduck.handler,ch.cyberduck.i18n,ch.cyberduck.model,ch.cyber
+ duck.serializer,ch.cyberduck.service,javax.crypto,javax.crypto.spec,j
+ avax.swing,org.apache.commons.lang,org.apache.log4j,org.apache.log4j.
+ xml,org.merapi.internal,org.merapi.messages,org.millipede.merapi.mess
+ ages,org.millipede.router.vo,org.osgi.framework,org.osgi.service.even
+ t,org.osgi.util.tracker,quickbase,quickbase.exception,quickbase.seria
+ lizer,quickbase.service
+

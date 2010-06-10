@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:UseCaseDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="cyberduckUseCaseDiagram" id="{UMLID=_Ab2KQGy6Ed-om4tBcDDGRg,JavaID=}" metadata="uml2-1.0" tag="200" key="32303037303632392063796265726475636B">
+  <diagramOptions xsi:type="options:UseCaseDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,0" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:UseCaseDiagramEditModel>

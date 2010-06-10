@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service
+END
+AbstractContentStateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/AbstractContentStateService.java
+END
+ContentStateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/ContentStateListener.java
+END
+EventDispatcherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/EventDispatcherService.java
+END
+BasicEventDispatcherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/BasicEventDispatcherService.java
+END
+ContentState.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/ContentState.java
+END
+ContentStateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/ContentStateService.java
+END
+BasicContentStateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/service/BasicContentStateService.java
+END

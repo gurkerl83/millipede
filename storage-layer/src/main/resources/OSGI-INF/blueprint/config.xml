@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint default-activation="lazy" default-availability="mandatory" default-timeout="300000" xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 ../../../../../blueprint.xsd ">
+
+    <reference id="loginController" interface="ch.cyberduck.service.LoginController" />
+
+    <reference id="transferController"
+               interface="ch.cyberduck.service.TransferControllerService" />
+
+<!--
+    <reference id="browserController" interface="ch.cyberduck.service.BrowserControllerService" />
+-->
+<!--
+    <bean id="persistenceControllerBean" class="org.milipede.storage.layer.internal.PersistenceController"
+          init-method="startup" destroy-method="shutdown" activation="eager"/>
+-->
+
+	<!-- init-method="startup" destroy-method="shutdown" -->
+
+    <bean id="providerHandlerBean" class="org.milipede.storage.layer.handler.ProviderHandler">
+
+        <property name="loginService" ref="loginController" />
+<!--
+        <property name="browserController" ref="browserController" />
+-->
+
+        <property name="transferController" ref="transferController" />
+<!--
+        <property name="persistentceController">
+            <ref component-id="persistenceControllerBean"/>
+        </property>
+-->
+    </bean>
+
+    <service id="providerHandler" ref="providerHandlerBean">
+    <!--
+             interface="org.osgi.service.event.EventHandler">
+	-->
+	<interfaces><value>org.osgi.service.event.EventHandler</value>
+	<value>ch.cyberduck.handler.ResultHandler</value></interfaces>
+        <service-properties>
+            <entry key="event.topics" value="collaboration/*"/>
+            <!-- value="initProviderListRequest/*"/> -->
+        </service-properties>
+
+    </service>
+
+<!--
+	<service id="providerResultHandler" ref="providerHandlerBean"
+        
+             interface="ch.cyberduck.handler.ResultHandler">
+    </service>
+-->	
+    <!-- Service Reference Manager Examples -->
+    <!--
+    <reference-list id="serviceReferenceList" interface="org.milipede.storage.layer.Controllable"
+                    availability="optional">
+        <reference-listener
+            bind-method="bind" unbind-method="unbind">
+            <bean class="org.milipede.storage.layer.internal.AccountControllerManager"/>
+        </reference-listener>
+    </reference-list>
+	-->
+
+    <!-- Bundle-Activator: org.milipede.storage.layer.AccountActivator-->
+        <!--
+        <bean id="accountActivatorBean" class="org.milipede.storage.layer.AccountActivator"
+                init-method="init" destroy-method="destroy">
+        </bean>
+        -->
+
+        <!--
+                <property name="providerHandler"> <ref
+                component-id="providerHandlerBean"/> </property>
+        -->
+
+        <!--
+                <ref component-id="browserControllerBean"/> </property>
+        -->
+
+</blueprint>

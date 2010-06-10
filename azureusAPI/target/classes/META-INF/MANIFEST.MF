@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Export-Package: com.aelitis.azureus.core.peermanager.messaging;version
+ ="1.0.0",org.gudy.azureus2.core3.download;version="1.0.0"
+Import-Bundle: com.springsource.org.apache.log4j;version="[1.2.15,1.2.
+ 15]"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: azureusAPI
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.gudy.azureusAPI
+Import-Package: org.apache.log4j;version="[1.2.15,1.2.15]",org.gudy.az
+ ureus2.plugins.messaging;version="[0.0.0,1.0.0]",org.torrent.internal
+ .data;version="[0.0.0,1.0.0]"
+Provide-Package: org.gudy.azureus2.core3.download;specification-versio
+ n="0.0.0", com.aelitis.azureus.core.peermanager.messaging;specificati
+ on-version="0.0.0", org.gudy.azureus2.plugins.messaging, org.torrent.
+ internal.data
+

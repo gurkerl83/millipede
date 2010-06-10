@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/fokus
+END
+RouterCPDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/fokus/RouterCPDevice.java
+END
+FokusRouterEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/fokus/FokusRouterEntity.java
+END
+RouterControlPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/fokus/RouterControlPoint.java
+END
+upnp-entity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/fokus/upnp-entity.xml
+END

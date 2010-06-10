@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: org.gudy.azureus2;version="1.0.0";uses:="org.osgi.fram
+ ework",org.gudy.azureus2.pluginsimpl.local.dht.mainline;version="1.0.
+ 0";uses:="com.aelitis.azureus.core,org.gudy.azureus2.plugins.dht.main
+ line"
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: mainline
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.gudy.azureus2.MainlineActivator
+Bundle-SymbolicName: org.millipede.mainline
+Import-Package: com.aelitis.azureus.core,com.aelitis.azureus.core.peer
+ manager.messaging.bittorrent,org.gudy.azureus2.core3.global,org.gudy.
+ azureus2.plugins.dht.mainline,org.osgi.framework
+

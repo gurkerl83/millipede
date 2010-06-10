@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Unversioned-Imports: *
+Bundle-Version: 1.0.0
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: system
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.millipede.system
+

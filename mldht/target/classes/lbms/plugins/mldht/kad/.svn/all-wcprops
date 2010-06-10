@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad
+END
+ByteWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/ByteWrapper.java
+END
+DBItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DBItem.java
+END
+DHTStatsListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTStatsListener.java
+END
+TaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/TaskListener.java
+END
+KBucketEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/KBucketEntry.java
+END
+NodeLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/NodeLookup.java
+END
+DHTLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTLogger.java
+END
+PopulationEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/PopulationEstimator.java
+END
+DHTStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTStatus.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/Node.java
+END
+RPCCallListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCCallListener.java
+END
+KBucket.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/KBucket.java
+END
+AnnounceTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/AnnounceTask.java
+END
+DHTStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTStats.java
+END
+PingRefreshTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/PingRefreshTask.java
+END
+PopulationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/PopulationListener.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/Task.java
+END
+RPCStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCStats.java
+END
+Database.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/Database.java
+END
+KClosestNodesSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/KClosestNodesSearch.java
+END
+RPCServerBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCServerBase.java
+END
+DHTBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTBase.java
+END
+RPCCallBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCCallBase.java
+END
+RPCServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCServer.java
+END
+DHTConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTConstants.java
+END
+PackUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/PackUtil.java
+END
+DHT.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHT.java
+END
+RPCCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/RPCCall.java
+END
+DatabaseStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DatabaseStats.java
+END
+KeyspaceCrawler.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/KeyspaceCrawler.java
+END
+Key.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/Key.java
+END
+DHTStatusListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/DHTStatusListener.java
+END
+ExpireTimer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/ExpireTimer.java
+END
+TaskManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/TaskManager.java
+END
+KBucketEntryAndToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/17/trunk/millipede/mldht/src/main/java/lbms/plugins/mldht/kad/KBucketEntryAndToken.java
+END

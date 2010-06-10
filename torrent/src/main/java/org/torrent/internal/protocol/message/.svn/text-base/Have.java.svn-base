@@ -1,0 +1,49 @@
+package org.torrent.internal.protocol.message;
+
+import org.torrent.internal.util.Validator;
+
+public class Have implements BittorrentMessage {
+
+	private final int pieceIndex;
+
+	public Have(int pieceIndex) {
+		Validator.isTrue(pieceIndex >= 0, "Index invalid: " + pieceIndex);
+		this.pieceIndex = pieceIndex;
+	}
+
+	public int getPieceIndex() {
+		return pieceIndex;
+	}
+
+	@Override
+	public void accept(BTMessageVisitor visitor) {
+		visitor.visitHave(this);
+	}
+
+	@Override
+	public String toString() {
+		return "Have: " + pieceIndex;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + pieceIndex;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Have other = (Have) obj;
+		if (pieceIndex != other.pieceIndex)
+			return false;
+		return true;
+	}
+}

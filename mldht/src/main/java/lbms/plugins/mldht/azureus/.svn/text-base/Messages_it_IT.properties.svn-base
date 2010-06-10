@@ -1,0 +1,11 @@
+Views.plugins.mldht_View.IPv4.title=Mainline DHT (IPv4)
+Views.plugins.mldht_View.IPv6.title=Mainline DHT (IPv6)
+Views.plugins.mldht_RoutingView.title=Tabella Di Routing Mainline DHT
+plugin.mldht=Mainline DHT
+mldht.enable=Abilita
+mldht.port=Porta
+mldht.autoopen=Apri automaticamente la finestra
+mldht.backupOnly=Traccia i torrent solo quando il Tracker non è disponibile.
+mldht.showStatusEntry=Mostra icona nella Statusbar
+tablemenu.main.item=Mainline DHT
+tablemenu.announce.item=Announce

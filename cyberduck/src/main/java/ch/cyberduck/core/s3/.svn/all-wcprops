@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/s3
+END
+S3Path.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/5760/trunk/source/ch/cyberduck/core/s3/S3Path.java
+END
+S3Session.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/5830/trunk/source/ch/cyberduck/core/s3/S3Session.java
+END

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint default-activation="lazy" default-availability="optional" default-timeout="300000" xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 ../../../../../blueprint.xsd "
+		>
+		<!--
+		xmlns:tns="http://felix.apache.org/karaf/xmlns/jaas/v1.0.0">
+		-->
+
+<!-- Service Manager Examples -->
+    <bean id="loginControllerBean" class="ch.cyberduck.LoginController">
+        <!--<argument value="7"/>-->
+        <property name="description" value="loginController"/>
+    </bean>
+
+    <service id="loginController" ref="loginControllerBean" interface="ch.cyberduck.service.LoginController" />
+
+    <bean id="browserControllerBean" class="ch.cyberduck.MainController"
+          factory-method="newDocument">
+        <argument>
+        	<value type="java.lang.Boolean">true</value>
+        </argument>
+        <!-- <argument value="true"/> -->
+    </bean>
+
+    <service id="browserController" ref="browserControllerBean" interface="ch.cyberduck.service.BrowserControllerService" />
+
+
+    <reference id="providerHandler"
+               interface="ch.cyberduck.handler.ResultHandler" />
+						
+
+    <bean id="transferControllerBean" class="ch.cyberduck.TransferController"
+        scope="singleton">
+        <!--
+        <argument ref="providerHandler"/>
+        -->
+        
+            <!-- <value type="ch.cyberduck.handler.ResultHandler"/>-->
+        
+		<property name="resultHandler" ref="providerHandler"/>
+    	
+    </bean>
+
+    <service id="transferController" ref="transferControllerBean" interface="ch.cyberduck.service.TransferControllerService" />
+    
+    
+    <!-- Bean to allow the $[karaf.base] property to be correctly resolved -->
+    <!--
+    <ext:property-placeholder placeholder-prefix="$[" placeholder-suffix="]"/>
+	-->
+	
+	<!--
+    <tns:config name="karaf">
+        <tns:module className="org.apache.felix.karaf.jaas.modules.properties.PropertiesLoginModule" flags="required">
+            users = $[karaf.base]/etc/users.properties
+        </tns:module>
+    </tns:config>
+	
+	<tns:keystore xmlns:jaas="http://felix.apache.org/karaf/xmlns/jaas/v1.0.0"
+               id="keystore"
+               name="ks"
+               rank="1"
+               path="classpath:privatestore.jks"
+               keystorePassword="keyStorePassword"
+               keyPasswords="myalias=myAliasPassword">
+	</tns:keystore>
+	-->
+</blueprint>

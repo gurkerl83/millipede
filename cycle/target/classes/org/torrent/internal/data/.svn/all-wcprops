@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/21/trunk/millipede/cycle/src/main/java/org/torrent/internal/data
+END
+TorrentMetaInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/21/trunk/millipede/cycle/src/main/java/org/torrent/internal/data/TorrentMetaInfo.java
+END
+Hash.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/21/trunk/millipede/cycle/src/main/java/org/torrent/internal/data/Hash.java
+END
+BTPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/21/trunk/millipede/cycle/src/main/java/org/torrent/internal/data/BTPart.java
+END

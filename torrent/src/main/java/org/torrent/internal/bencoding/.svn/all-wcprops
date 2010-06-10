@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding
+END
+BMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BMap.java
+END
+BEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BEncoder.java
+END
+BTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BTypeException.java
+END
+HashBMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/HashBMap.java
+END
+BDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BDecoder.java
+END
+MetaInfoFileIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/MetaInfoFileIO.java
+END
+BDecodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BDecodingException.java
+END
+BList.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/bencoding/BList.java
+END

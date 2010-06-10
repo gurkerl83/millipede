@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl
+END
+PEPeerControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerControl.java
+END
+PEPeerStatsImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerStatsImpl.java
+END
+PEPeerTransportFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerTransportFactory.java
+END
+PEPieceWriteImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPieceWriteImpl.java
+END
+PEPeerTransportExtensionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerTransportExtensionHandler.java
+END
+PEPeerControlFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerControlFactory.java
+END
+PEPeerManagerStatsImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerManagerStatsImpl.java
+END
+PEPieceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPieceImpl.java
+END
+PEPeerTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/core3/peer/impl/PEPeerTransport.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router
+END
+RouterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/RouterException.java
+END
+IRouterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/IRouterFactory.java
+END
+AbstractRouter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/AbstractRouter.java
+END
+IRouter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/13/trunk/millipede/portmapper/src/main/java/org/chris/portmapper/router/IRouter.java
+END

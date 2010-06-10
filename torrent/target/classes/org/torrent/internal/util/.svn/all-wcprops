@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util
+END
+Bits.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/Bits.java
+END
+BTUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/BTUtil.java
+END
+Validator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/Validator.java
+END
+Partitions.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/Partitions.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/Range.java
+END
+SparseArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/SparseArray.java
+END
+Time.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/util/Time.java
+END

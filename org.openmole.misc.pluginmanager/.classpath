@@ -1,0 +1,10 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/aries/blueprint/aries-blueprint-api/1.0.0-incubating-SNAPSHOT/aries-blueprint-api-1.0.0-incubating-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sourceforge/collections/collections-generic/4.01/collections-generic-4.01.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/eclipse/equinox/org.eclipse.osgi/3.5.1/org.eclipse.osgi-3.5.1.jar" sourcepath="M2_REPO/org/eclipse/equinox/org.eclipse.osgi/3.5.1/org.eclipse.osgi-3.5.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/millipede/org.openmole.misc.exception/1.0.0/org.openmole.misc.exception-1.0.0.jar"/>
+</classpath>

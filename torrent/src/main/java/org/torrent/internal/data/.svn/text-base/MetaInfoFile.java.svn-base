@@ -1,0 +1,159 @@
+package org.torrent.internal.data;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import org.torrent.internal.bencoding.BList;
+import org.torrent.internal.bencoding.BMap;
+import org.torrent.internal.bencoding.BTypeException;
+import org.torrent.internal.util.Validator;
+
+public final class MetaInfoFile {
+	private static final String MI_ANNOUNCE = "announce";
+	private static final String MI_INFO = "info";
+	private static final String ANNOUNCE_LISTS = "announce-list";
+	private static final String COMMENT = "comment";
+	private static final String CREATION_DATE = "creation date";
+	private static final String CREATED_BY = "created by";
+	private static final String ENCODING = "encoding";
+	
+	private final String announce;
+	private final InfoBlock dataInfo;
+	private final List<List<String>> announceLists;
+	private final String comment;
+	private final Long creationDate;
+	private final String createdBy;
+	private final String encoding;
+	
+	private final Map<String, ?> customKeys;
+
+	public MetaInfoFile(String announceURL, List<List<String>> announceLists,
+			InfoBlock data, String comment, Calendar creationDate,
+			String createdBy, String encoding, Map<String, ?> customKeys) {
+		Validator.nonNull(announceURL, data);
+
+		announce = announceURL;
+		dataInfo = data;
+
+		this.announceLists = announceLists;
+		this.comment = comment;
+		this.creationDate = creationDate != null ? creationDate
+				.getTimeInMillis() : null;
+		this.createdBy = createdBy;
+		this.encoding = encoding;
+		if (customKeys == null) {
+			customKeys = new HashMap<String, Object>(0);
+		}
+		this.customKeys = customKeys;
+	}
+
+	public MetaInfoFile(BMap torrent) throws BTypeException {
+		Validator.notNull(torrent, "Dictionary is null!");
+		dataInfo = new InfoBlock(torrent.getMap(MI_INFO));
+		
+		announce = torrent.getString(MI_ANNOUNCE);
+
+//		BList aLists = torrent.getList(ANNOUNCE_LISTS);
+//		
+//		if (aLists != null) {
+//			List<List<String>> a_l = new ArrayList<List<String>>();
+//			for (int i = 0; i < aLists.size(); i++) {
+//				BList list = aLists.getList(i);
+//				List<String> urls = new LinkedList<String>();
+//				for (int j = 0; j < list.size(); j++) {
+//					urls.add(list.getString(j));
+//				}
+//				a_l.add(Collections
+//						.unmodifiableList(new ArrayList<String>(urls)));
+//			}
+//			announceLists = Collections
+//					.unmodifiableList(new ArrayList<List<String>>(a_l));
+//		} else {
+		announceLists = null;
+		
+
+		this.comment = torrent.getString(COMMENT);
+		Long time = torrent.getLong(CREATION_DATE);
+		if (time != null) {
+			time *= 1000;
+		}
+		creationDate = time;
+
+		createdBy = torrent.getString(CREATED_BY);
+		encoding = torrent.getString("ENCODING");
+		
+		customKeys = new HashMap<String, Object>(torrent);
+		customKeys.remove(MI_INFO);
+		customKeys.remove(MI_ANNOUNCE);
+		customKeys.remove(COMMENT);
+		customKeys.remove(CREATION_DATE);
+		customKeys.remove(CREATED_BY);
+		customKeys.remove(ENCODING);
+	}
+
+	public String getAnnounce() {
+		return announce;
+	}
+
+	public InfoBlock getDataInfo() {
+		return dataInfo;
+	}
+
+	public Hash getInfoHash() {
+		return dataInfo.getInfoHash();
+	}
+
+	public Map<String, ?> asDictionary() {
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put(MI_ANNOUNCE, announce);
+		map.put(MI_INFO, dataInfo.asDictionary());
+		if (announceLists != null) {
+			map.put(ANNOUNCE_LISTS, announceLists);
+		}
+		if (comment != null) {
+			map.put(COMMENT, comment);
+		}
+		if (creationDate != null) {
+			map.put(CREATION_DATE, creationDate / 1000);
+		}
+		if (createdBy != null) {
+			map.put(CREATED_BY, createdBy);
+		}
+		if (encoding != null) {
+			map.put(ENCODING, encoding);
+		}
+		map.putAll(customKeys);
+		return map;
+	}
+
+	public List<List<String>> getAnnounceTiers() {
+		return announceLists;
+	}
+
+	public String getComment() {
+		return comment;
+	}
+
+	public String getCreatedBy() {
+		return createdBy;
+	}
+
+	public Calendar getCreationDate() {
+		Calendar cal = Calendar.getInstance();
+		cal.setTimeInMillis(creationDate);
+		return cal;
+	}
+
+	public Map<String, Object> getCustomKeys() {
+		return Collections.unmodifiableMap(customKeys);
+	}
+	
+	public String getEncoding() {
+		return encoding;
+	}
+}

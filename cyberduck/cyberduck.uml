@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ARZ00Wy6Ed-om4tBcDDGRg" name="cyberduck">
+  <packageImport xmi:id="_ATpQgGy6Ed-om4tBcDDGRg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AVQaEGy6Ed-om4tBcDDGRg" name="."/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ab2KQGy6Ed-om4tBcDDGRg" name="">
+    <eAnnotations xmi:id="_KECzkGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/javaAllModelElementsDiagram.ame" references="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ab3YYGy6Ed-om4tBcDDGRg" name="ch">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ab3YYWy6Ed-om4tBcDDGRg" name="cyberduck" clientDependency="_AzX5cGy6Ed-om4tBcDDGRg _AzZHkGy6Ed-om4tBcDDGRg _AzZuoGy6Ed-om4tBcDDGRg _AzZuoWy6Ed-om4tBcDDGRg _AzaVsGy6Ed-om4tBcDDGRg">
+      <eAnnotations xmi:id="_KEGd8Gy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/javaAllModelElementsDiagram.ame"/>
+      <eAnnotations xmi:id="_c_X1IGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd" references="_c_XOEGy6Ed-om4tBcDDGRg _dBSgsGy6Ed-om4tBcDDGRg _dBTHw2y6Ed-om4tBcDDGRg _dBTu0Wy6Ed-om4tBcDDGRg _dBTu02y6Ed-om4tBcDDGRg _dBUV4Gy6Ed-om4tBcDDGRg _dBUV4my6Ed-om4tBcDDGRg _dBXZMGy6Ed-om4tBcDDGRg _dBYAQWy6Ed-om4tBcDDGRg _dBcRsGy6Ed-om4tBcDDGRg _dBc4wGy6Ed-om4tBcDDGRg _dBc4wmy6Ed-om4tBcDDGRg _dBet8Gy6Ed-om4tBcDDGRg _dBhKMGy6Ed-om4tBcDDGRg _dByP8Gy6Ed-om4tBcDDGRg _dBy3AGy6Ed-om4tBcDDGRg _dBy3Amy6Ed-om4tBcDDGRg _dCFx8Gy6Ed-om4tBcDDGRg _dCFx8my6Ed-om4tBcDDGRg _dCJcUGy6Ed-om4tBcDDGRg _dCKDYGy6Ed-om4tBcDDGRg _dCKDYmy6Ed-om4tBcDDGRg _dCKqcGy6Ed-om4tBcDDGRg _dCMfoGy6Ed-om4tBcDDGRg _dCNGsWy6Ed-om4tBcDDGRg _dCNGs2y6Ed-om4tBcDDGRg _dCTNUGy6Ed-om4tBcDDGRg _dCT0YGy6Ed-om4tBcDDGRg _dCgosGy6Ed-om4tBcDDGRg _dEUmkGy6Ed-om4tBcDDGRg _dEVNoWy6Ed-om4tBcDDGRg _dEV0sGy6Ed-om4tBcDDGRg _dExSgGy6Ed-om4tBcDDGRg _dFJtAGy6Ed-om4tBcDDGRg _dFSP4Gy6Ed-om4tBcDDGRg _dFYWgGy6Ed-om4tBcDDGRg _dFqDUGy6Ed-om4tBcDDGRg _dF9lUGy6Ed-om4tBcDDGRg _dF-zcGy6Ed-om4tBcDDGRg"/>
+      <eAnnotations xmi:id="_utmKYGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd" references="_dBUV4my6Ed-om4tBcDDGRg _dBSgsGy6Ed-om4tBcDDGRg _dBTHw2y6Ed-om4tBcDDGRg"/>
+      <eAnnotations xmi:id="_5C8NkGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/BrowserOutlineViewModel-a-s.ucd" references="_dBYAQWy6Ed-om4tBcDDGRg _dBTHw2y6Ed-om4tBcDDGRg"/>
+      <eAnnotations xmi:id="_Ug0fAGy7Ed-om4tBcDDGRg" source="test/src/srcAllModelElementsDiagram.ame" references="_dBTHw2y6Ed-om4tBcDDGRg"/>
+      <eAnnotations xmi:id="_jwXLUGy7Ed-a2cABrK5-7g" source="cyberduck/src/main/java/ch/cyberduck/AttributeCache-i-s.ucd" references="_c_XOEGy6Ed-om4tBcDDGRg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ab3YYmy6Ed-om4tBcDDGRg" name="threading" clientDependency="_A1ARIGy6Ed-om4tBcDDGRg _A1A4MGy6Ed-om4tBcDDGRg _A1A4MWy6Ed-om4tBcDDGRg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ab3_cGy6Ed-om4tBcDDGRg" name="core" clientDependency="_Az1zgGy6Ed-om4tBcDDGRg _Az1zgWy6Ed-om4tBcDDGRg _Az2akGy6Ed-om4tBcDDGRg _Az2akWy6Ed-om4tBcDDGRg">
+        <eAnnotations xmi:id="_dFqqYWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd" references="_dFqqYGy6Ed-om4tBcDDGRg _dF-MYGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab3_cWy6Ed-om4tBcDDGRg" name="ftps"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab4mgGy6Ed-om4tBcDDGRg" name="i18n" clientDependency="_A0X_AGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab5NkGy6Ed-om4tBcDDGRg" name="threading" clientDependency="_A0vLYGy6Ed-om4tBcDDGRg _A0vycGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab7p0Gy6Ed-om4tBcDDGRg" name="s3"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab8Q4Gy6Ed-om4tBcDDGRg" name="ftp">
+          <packagedElement xmi:type="uml:Package" xmi:id="_Ab8Q4Wy6Ed-om4tBcDDGRg" name="parser"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab9fAGy6Ed-om4tBcDDGRg" name="ssl">
+          <eAnnotations xmi:id="_s_gQ4Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd" references="_s_gQ4Gy6Ed-om4tBcDDGRg _s_j7QGy6Ed-om4tBcDDGRg _s_0Z8Gy6Ed-om4tBcDDGRg _s_0Z8my6Ed-om4tBcDDGRg _s_1BAGy6Ed-om4tBcDDGRg _tALmUGy6Ed-om4tBcDDGRg"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_s_gQ4Gy6Ed-om4tBcDDGRg" name="SSLSession">
+            <eAnnotations xmi:id="_s_gQ4my6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s_j7QGy6Ed-om4tBcDDGRg" name="DefaultX509TrustManager" clientDependency="_s_mXg2y6Ed-om4tBcDDGRg">
+            <eAnnotations xmi:id="_s_kiUGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+            <interfaceRealization xmi:id="_s_mXg2y6Ed-om4tBcDDGRg" supplier="_s_mXgGy6Ed-om4tBcDDGRg" client="_s_j7QGy6Ed-om4tBcDDGRg" contract="_s_mXgGy6Ed-om4tBcDDGRg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s_0Z8Gy6Ed-om4tBcDDGRg" name="AbstractX509TrustManager" clientDependency="_s_5ScGy6Ed-om4tBcDDGRg" isAbstract="true">
+            <eAnnotations xmi:id="_s_0Z8Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+            <interfaceRealization xmi:id="_s_5ScGy6Ed-om4tBcDDGRg" supplier="_s_mXgGy6Ed-om4tBcDDGRg" client="_s_0Z8Gy6Ed-om4tBcDDGRg" contract="_s_mXgGy6Ed-om4tBcDDGRg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s_0Z8my6Ed-om4tBcDDGRg" name="IgnoreX509TrustManager">
+            <eAnnotations xmi:id="_s_0Z82y6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_s_1BAGy6Ed-om4tBcDDGRg" name="KeychainX509TrustManager">
+            <eAnnotations xmi:id="_s_1BAWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tALmUGy6Ed-om4tBcDDGRg" name="CustomTrustSSLProtocolSocketFactory">
+            <eAnnotations xmi:id="_tAMNYGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+            <generalization xmi:id="_tAOCk2y6Ed-om4tBcDDGRg" general="_tAOCkGy6Ed-om4tBcDDGRg"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab-tIGy6Ed-om4tBcDDGRg" name="sftp"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab_UMGy6Ed-om4tBcDDGRg" name="davs" clientDependency="_A0LxwGy6Ed-om4tBcDDGRg _A0LxwWy6Ed-om4tBcDDGRg _A0MY0Gy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Ab_7QGy6Ed-om4tBcDDGRg" name="http" clientDependency="_A0ViwGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcBJYGy6Ed-om4tBcDDGRg" name="internal"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcBwcGy6Ed-om4tBcDDGRg" name="serializer" clientDependency="_A0kzUGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcCXgGy6Ed-om4tBcDDGRg" name="me"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcDloGy6Ed-om4tBcDDGRg" name="g"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcEMsGy6Ed-om4tBcDDGRg" name="aquaticprime" clientDependency="_Az6E8Gy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcHQAGy6Ed-om4tBcDDGRg" name="cf"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcIeIGy6Ed-om4tBcDDGRg" name="dav" clientDependency="_A0HgUGy6Ed-om4tBcDDGRg _A0HgUWy6Ed-om4tBcDDGRg _A0IHYGy6Ed-om4tBcDDGRg _A0IHYWy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcJFMGy6Ed-om4tBcDDGRg" name="cloud" clientDependency="_Az_kgGy6Ed-om4tBcDDGRg _Az_kgWy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcJsQGy6Ed-om4tBcDDGRg" name="ec"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_AcK6YGy6Ed-om4tBcDDGRg" name="io" clientDependency="_A0essGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dFqqYGy6Ed-om4tBcDDGRg" name="AbstractLoginController" isAbstract="true">
+          <eAnnotations xmi:id="_dFqqYmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dF-MYGy6Ed-om4tBcDDGRg" name="Preferences" isAbstract="true">
+          <eAnnotations xmi:id="_dF-MYWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ab7CwGy6Ed-om4tBcDDGRg" name="osgi"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Ab-GEGy6Ed-om4tBcDDGRg" name="ui" clientDependency="_A1EikGy6Ed-om4tBcDDGRg _A1FJoGy6Ed-om4tBcDDGRg">
+        <eAnnotations xmi:id="_dBTHwWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd" references="_dBTHwGy6Ed-om4tBcDDGRg"/>
+        <eAnnotations xmi:id="_iE918Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/nested packages diagram.ucd" references="_iE918Gy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dBTHwGy6Ed-om4tBcDDGRg" name="AbstractController" clientDependency="_iE-dAWy6Ed-om4tBcDDGRg" isAbstract="true">
+          <eAnnotations xmi:id="_dBTHwmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+          <interfaceRealization xmi:id="_iE-dAWy6Ed-om4tBcDDGRg" supplier="_iE918Gy6Ed-om4tBcDDGRg" client="_dBTHwGy6Ed-om4tBcDDGRg" contract="_iE918Gy6Ed-om4tBcDDGRg"/>
+          <ownedOperation xmi:id="_iFbwAGy6Ed-om4tBcDDGRg" visibility="public"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_iE918Gy6Ed-om4tBcDDGRg" name="Controller">
+          <eAnnotations xmi:id="_iE-dAGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/nested packages diagram.ucd"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AcC-kGy6Ed-om4tBcDDGRg" name="constants"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AcFa0Gy6Ed-om4tBcDDGRg" name="i18n" clientDependency="_A0xnoGy6Ed-om4tBcDDGRg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AcGB4Gy6Ed-om4tBcDDGRg" name="serializer" clientDependency="_A08mwGy6Ed-om4tBcDDGRg _A08mwWy6Ed-om4tBcDDGRg"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AcGo8Gy6Ed-om4tBcDDGRg" name="model" clientDependency="_A015EGy6Ed-om4tBcDDGRg _A02gIGy6Ed-om4tBcDDGRg _A02gIWy6Ed-om4tBcDDGRg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_c_XOEGy6Ed-om4tBcDDGRg" name="AttributeCache">
+        <eAnnotations xmi:id="_c_X1IWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_c_cGkGy6Ed-om4tBcDDGRg" parameter="_c_d7wGy6Ed-om4tBcDDGRg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_c_d7wGy6Ed-om4tBcDDGRg" parameteredElement="_jwXyYGy7Ed-a2cABrK5-7g">
+            <ownedParameteredElement xmi:type="uml:DataType" xmi:id="_jwXyYGy7Ed-a2cABrK5-7g" name="K" templateParameter="_c_d7wGy6Ed-om4tBcDDGRg"/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <ownedAttribute xmi:id="_jwgVQGy7Ed-a2cABrK5-7g" visibility="private"/>
+        <ownedAttribute xmi:id="_jwjYkGy7Ed-a2cABrK5-7g" visibility="private"/>
+        <ownedOperation xmi:id="_dBO2UGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBSgsGy6Ed-om4tBcDDGRg" name="ProxyController">
+        <eAnnotations xmi:id="_dBSgsWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dBiYUGy6Ed-om4tBcDDGRg" general="_dBTHwGy6Ed-om4tBcDDGRg"/>
+        <ownedAttribute xmi:id="_dBriQGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedOperation xmi:id="_dBvMoGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBTHw2y6Ed-om4tBcDDGRg" name="BrowserTableDataSource" isAbstract="true">
+        <eAnnotations xmi:id="_dBTu0Gy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBTu0Wy6Ed-om4tBcDDGRg" name="BundleController" isAbstract="true">
+        <eAnnotations xmi:id="_dBTu0my6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBTu02y6Ed-om4tBcDDGRg" name="ListDataSource" isAbstract="true">
+        <eAnnotations xmi:id="_dBTu1Gy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBUV4Gy6Ed-om4tBcDDGRg" name="OutlineDataSource" isAbstract="true">
+        <eAnnotations xmi:id="_dBUV4Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBUV4my6Ed-om4tBcDDGRg" name="AbstractTableDelegate" clientDependency="_vExUQGy6Ed-om4tBcDDGRg" isAbstract="true">
+        <eAnnotations xmi:id="_dBUV42y6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_dBUV5Gy6Ed-om4tBcDDGRg" parameter="_dBUV5Wy6Ed-om4tBcDDGRg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_dBUV5Wy6Ed-om4tBcDDGRg" parameteredElement="_vExUQWy6Ed-om4tBcDDGRg">
+            <ownedParameteredElement xmi:type="uml:DataType" xmi:id="_vExUQWy6Ed-om4tBcDDGRg" name="E" templateParameter="_dBUV5Wy6Ed-om4tBcDDGRg"/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <generalization xmi:id="_vEwGIGy6Ed-om4tBcDDGRg" general="_dBSgsGy6Ed-om4tBcDDGRg"/>
+        <interfaceRealization xmi:id="_vExUQGy6Ed-om4tBcDDGRg" supplier="_dFSP4Gy6Ed-om4tBcDDGRg" client="_dBUV4my6Ed-om4tBcDDGRg" contract="_dFSP4Gy6Ed-om4tBcDDGRg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBXZMGy6Ed-om4tBcDDGRg" name="BrowserListViewModel">
+        <eAnnotations xmi:id="_dBYAQGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_vmObgGy6Ed-om4tBcDDGRg" general="_dBTHw2y6Ed-om4tBcDDGRg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBYAQWy6Ed-om4tBcDDGRg" name="BrowserOutlineViewModel">
+        <eAnnotations xmi:id="_dBYAQmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_v1Pu8Gy6Ed-om4tBcDDGRg" general="_dBTHw2y6Ed-om4tBcDDGRg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBcRsGy6Ed-om4tBcDDGRg" name="MainController">
+        <eAnnotations xmi:id="_dBcRsWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBc4wGy6Ed-om4tBcDDGRg" name="ProgressController">
+        <eAnnotations xmi:id="_dBc4wWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBc4wmy6Ed-om4tBcDDGRg" name="WindowController" isAbstract="true">
+        <eAnnotations xmi:id="_dBc4w2y6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBet8Gy6Ed-om4tBcDDGRg" name="TransferTableDataSource">
+        <eAnnotations xmi:id="_dBet8Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBhKMGy6Ed-om4tBcDDGRg" name="TransferPromptModel" isAbstract="true">
+        <eAnnotations xmi:id="_dBhKMWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dByP8Gy6Ed-om4tBcDDGRg" name="AbstractPathTableDelegate" isAbstract="true">
+        <eAnnotations xmi:id="_dByP8Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dB0FIGy6Ed-om4tBcDDGRg" general="_dBUV4my6Ed-om4tBcDDGRg"/>
+        <ownedOperation xmi:id="_dCA5cGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dBy3AGy6Ed-om4tBcDDGRg" name="BrowserController">
+        <eAnnotations xmi:id="_dBy3AWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_dBy3Amy6Ed-om4tBcDDGRg" name="AbstractBrowserTableDelegate" isAbstract="true">
+          <eAnnotations xmi:id="_dBzeEGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+          <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_dBzeEWy6Ed-om4tBcDDGRg" parameter="_dBzeEmy6Ed-om4tBcDDGRg">
+            <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_dBzeEmy6Ed-om4tBcDDGRg" parameteredElement="_dBzeE2y6Ed-om4tBcDDGRg">
+              <ownedParameteredElement xmi:type="uml:DataType" xmi:id="_dBzeE2y6Ed-om4tBcDDGRg" name="E" templateParameter="_dBzeEmy6Ed-om4tBcDDGRg"/>
+            </ownedParameter>
+          </ownedTemplateSignature>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCFx8Gy6Ed-om4tBcDDGRg" name="TransferController" clientDependency="_dCsO4Gy6Ed-om4tBcDDGRg">
+        <eAnnotations xmi:id="_dCFx8Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dChPwGy6Ed-om4tBcDDGRg" general="_dBc4wmy6Ed-om4tBcDDGRg"/>
+        <ownedAttribute xmi:id="_dDNzUGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dDRdsGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dDUhAGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dDXkUGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dDanoGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dDdq8Gy6Ed-om4tBcDDGRg" visibility="private"/>
+        <interfaceRealization xmi:id="_dCsO4Gy6Ed-om4tBcDDGRg" supplier="_dCrAwGy6Ed-om4tBcDDGRg" client="_dCFx8Gy6Ed-om4tBcDDGRg" contract="_dCrAwGy6Ed-om4tBcDDGRg"/>
+        <ownedOperation xmi:id="_dEBEkGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCFx8my6Ed-om4tBcDDGRg" name="SheetController" isAbstract="true">
+        <eAnnotations xmi:id="_dCFx82y6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCJcUGy6Ed-om4tBcDDGRg" name="DownloadController">
+        <eAnnotations xmi:id="_dCJcUWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCKDYGy6Ed-om4tBcDDGRg" name="TransferPromptController" isAbstract="true">
+        <eAnnotations xmi:id="_dCKDYWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCKDYmy6Ed-om4tBcDDGRg" name="ConnectionController">
+        <eAnnotations xmi:id="_dCKDY2y6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCKqcGy6Ed-om4tBcDDGRg" name="FileController" isAbstract="true">
+        <eAnnotations xmi:id="_dCKqcWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCMfoGy6Ed-om4tBcDDGRg" name="SyncPromptController">
+        <eAnnotations xmi:id="_dCNGsGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCNGsWy6Ed-om4tBcDDGRg" name="DownloadPromptController">
+        <eAnnotations xmi:id="_dCNGsmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCNGs2y6Ed-om4tBcDDGRg" name="UploadPromptController">
+        <eAnnotations xmi:id="_dCNtwGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCTNUGy6Ed-om4tBcDDGRg" name="DuplicateFileController">
+        <eAnnotations xmi:id="_dCTNUWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCT0YGy6Ed-om4tBcDDGRg" name="CreateFileController">
+        <eAnnotations xmi:id="_dCT0YWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dCgosGy6Ed-om4tBcDDGRg" name="FolderController">
+        <eAnnotations xmi:id="_dCgosWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_dCn9cGy6Ed-om4tBcDDGRg" name="service">
+        <eAnnotations xmi:id="_dCrAwWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd" references="_dCrAwGy6Ed-om4tBcDDGRg _dFsfkGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dCrAwGy6Ed-om4tBcDDGRg" name="TransferControllerService" isAbstract="true">
+          <eAnnotations xmi:id="_dCrAwmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dFsfkGy6Ed-om4tBcDDGRg" name="LoginController" isAbstract="true">
+          <eAnnotations xmi:id="_dFsfkWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dEUmkGy6Ed-om4tBcDDGRg" name="UploadPromptModel">
+        <eAnnotations xmi:id="_dEVNoGy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dEb7UGy6Ed-om4tBcDDGRg" general="_dBhKMGy6Ed-om4tBcDDGRg"/>
+        <ownedAttribute xmi:id="_dEqk0Gy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedOperation xmi:id="_dEtoIGy6Ed-om4tBcDDGRg" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dEVNoWy6Ed-om4tBcDDGRg" name="DownloadPromptModel">
+        <eAnnotations xmi:id="_dEVNomy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dEV0sGy6Ed-om4tBcDDGRg" name="SyncPromptModel">
+        <eAnnotations xmi:id="_dEV0sWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dExSgGy6Ed-om4tBcDDGRg" name="MainApplication" clientDependency="_dE0842y6Ed-om4tBcDDGRg">
+        <eAnnotations xmi:id="_dExSgWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedAttribute xmi:id="_dE-G0Gy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dFBKIGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dFDmYGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <interfaceRealization xmi:id="_dE0842y6Ed-om4tBcDDGRg" supplier="_dE084Gy6Ed-om4tBcDDGRg" client="_dExSgGy6Ed-om4tBcDDGRg" contract="_dE084Gy6Ed-om4tBcDDGRg"/>
+        <ownedOperation xmi:id="_dFGpsGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_dFJtAGy6Ed-om4tBcDDGRg" name="WindowListener">
+        <eAnnotations xmi:id="_dFJtAWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedOperation xmi:id="_dFPzoGy6Ed-om4tBcDDGRg" visibility="package"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_dFSP4Gy6Ed-om4tBcDDGRg" name="TableDelegate">
+        <eAnnotations xmi:id="_dFSP4Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_dFSP4my6Ed-om4tBcDDGRg" parameter="_dFS28Gy6Ed-om4tBcDDGRg">
+          <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_dFS28Gy6Ed-om4tBcDDGRg" parameteredElement="_dFS28my6Ed-om4tBcDDGRg">
+            <ownedParameteredElement xmi:type="uml:DataType" xmi:id="_dFS28my6Ed-om4tBcDDGRg" name="E" templateParameter="_dFS28Gy6Ed-om4tBcDDGRg"/>
+          </ownedParameter>
+        </ownedTemplateSignature>
+        <ownedOperation xmi:id="_dFUsIGy6Ed-om4tBcDDGRg" visibility="package"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_dFYWgGy6Ed-om4tBcDDGRg" name="SheetCallback">
+        <eAnnotations xmi:id="_dFYWgWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <ownedAttribute xmi:id="_dFbZ0Gy6Ed-om4tBcDDGRg" visibility="public" isLeaf="true"/>
+        <ownedAttribute xmi:id="_dFedIGy6Ed-om4tBcDDGRg" visibility="public" isLeaf="true"/>
+        <ownedAttribute xmi:id="_dFg5YGy6Ed-om4tBcDDGRg" visibility="public" isLeaf="true"/>
+        <ownedOperation xmi:id="_dFj8sGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dFqDUGy6Ed-om4tBcDDGRg" name="LoginController" clientDependency="_dFsfkmy6Ed-om4tBcDDGRg">
+        <eAnnotations xmi:id="_dFqDUWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dFrRcGy6Ed-om4tBcDDGRg" general="_dFqqYGy6Ed-om4tBcDDGRg"/>
+        <ownedAttribute xmi:id="_dFymMGy6Ed-om4tBcDDGRg" visibility="protected"/>
+        <ownedAttribute xmi:id="_dF1pgGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dF4FwGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <interfaceRealization xmi:id="_dFsfkmy6Ed-om4tBcDDGRg" supplier="_dFsfkGy6Ed-om4tBcDDGRg" client="_dFqDUGy6Ed-om4tBcDDGRg" contract="_dFsfkGy6Ed-om4tBcDDGRg"/>
+        <ownedOperation xmi:id="_dF7JEGy6Ed-om4tBcDDGRg" visibility="public"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dF9lUGy6Ed-om4tBcDDGRg" name="UserDefaultsPreferences">
+        <eAnnotations xmi:id="_dF9lUWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        <generalization xmi:id="_dGB2wGy6Ed-om4tBcDDGRg" general="_dF-MYGy6Ed-om4tBcDDGRg"/>
+        <ownedAttribute xmi:id="_dGPSIGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedAttribute xmi:id="_dGSVcGy6Ed-om4tBcDDGRg" visibility="private"/>
+        <ownedOperation xmi:id="_dGUxsGy6Ed-om4tBcDDGRg" visibility="protected"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dF-zcGy6Ed-om4tBcDDGRg" name="UserDefaultsPortablePreferences">
+        <eAnnotations xmi:id="_dF-zcWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ab6bsGy6Ed-om4tBcDDGRg" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ab6bsWy6Ed-om4tBcDDGRg" name="rococoa"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dE0V0Gy6Ed-om4tBcDDGRg" name="osgi">
+      <packagedElement xmi:type="uml:Package" xmi:id="_dE0V0Wy6Ed-om4tBcDDGRg" name="framework">
+        <eAnnotations xmi:id="_dE084Wy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd" references="_dE084Gy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_dE084Gy6Ed-om4tBcDDGRg" name="BundleActivator" isAbstract="true">
+          <eAnnotations xmi:id="_dE084my6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/cyberduck-i.ucd"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tAM0cGy6Ed-om4tBcDDGRg" name="apache">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tAM0cWy6Ed-om4tBcDDGRg" name="commons">
+        <packagedElement xmi:type="uml:Package" xmi:id="_tAM0cmy6Ed-om4tBcDDGRg" name="httpclient">
+          <packagedElement xmi:type="uml:Package" xmi:id="_tANbgGy6Ed-om4tBcDDGRg" name="protocol">
+            <eAnnotations xmi:id="_tAOCkWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd" references="_tAOCkGy6Ed-om4tBcDDGRg"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_tAOCkGy6Ed-om4tBcDDGRg" name="SSLProtocolSocketFactory">
+              <eAnnotations xmi:id="_tAOCkmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_AzX5cGy6Ed-om4tBcDDGRg" supplier="_Ab-GEGy6Ed-om4tBcDDGRg" client="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_AzZHkGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_AzZuoGy6Ed-om4tBcDDGRg" supplier="_Ab5NkGy6Ed-om4tBcDDGRg" client="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_AzZuoWy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_AzaVsGy6Ed-om4tBcDDGRg" supplier="_Ab3YYmy6Ed-om4tBcDDGRg" client="_Ab3YYWy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az1zgGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_Ab3_cGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az1zgWy6Ed-om4tBcDDGRg" supplier="_Ab3YYWy6Ed-om4tBcDDGRg" client="_Ab3_cGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az2akGy6Ed-om4tBcDDGRg" supplier="_AcBwcGy6Ed-om4tBcDDGRg" client="_Ab3_cGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az2akWy6Ed-om4tBcDDGRg" supplier="_Ab5NkGy6Ed-om4tBcDDGRg" client="_Ab3_cGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az6E8Gy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcEMsGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az_kgGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_AcJFMGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Az_kgWy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcJFMGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0HgUGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_AcIeIGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0HgUWy6Ed-om4tBcDDGRg" supplier="_Ab3YYWy6Ed-om4tBcDDGRg" client="_AcIeIGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0IHYGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcIeIGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_A0IHYWy6Ed-om4tBcDDGRg" supplier="_Ab_7QGy6Ed-om4tBcDDGRg" client="_AcIeIGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0LxwGy6Ed-om4tBcDDGRg" supplier="_Ab9fAGy6Ed-om4tBcDDGRg" client="_Ab_UMGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0LxwWy6Ed-om4tBcDDGRg" supplier="_AcIeIGy6Ed-om4tBcDDGRg" client="_Ab_UMGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0MY0Gy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab_UMGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_A0ViwGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab_7QGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_A0X_AGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab4mgGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0essGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcK6YGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_A0kzUGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcBwcGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0vLYGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_Ab5NkGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0vycGy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab5NkGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0xnoGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_AcFa0Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A015EGy6Ed-om4tBcDDGRg" supplier="_Ab4mgGy6Ed-om4tBcDDGRg" client="_AcGo8Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A02gIGy6Ed-om4tBcDDGRg" supplier="_Ab3YYWy6Ed-om4tBcDDGRg" client="_AcGo8Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A02gIWy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcGo8Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A08mwGy6Ed-om4tBcDDGRg" supplier="_AcBwcGy6Ed-om4tBcDDGRg" client="_AcGB4Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A08mwWy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_AcGB4Gy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A1ARIGy6Ed-om4tBcDDGRg" supplier="_Ab3YYWy6Ed-om4tBcDDGRg" client="_Ab3YYmy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A1A4MGy6Ed-om4tBcDDGRg" supplier="_Ab5NkGy6Ed-om4tBcDDGRg" client="_Ab3YYmy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A1A4MWy6Ed-om4tBcDDGRg" supplier="_Ab3_cGy6Ed-om4tBcDDGRg" client="_Ab3YYmy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A1EikGy6Ed-om4tBcDDGRg" supplier="_Ab5NkGy6Ed-om4tBcDDGRg" client="_Ab-GEGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A1FJoGy6Ed-om4tBcDDGRg" client="_Ab-GEGy6Ed-om4tBcDDGRg"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_s_lwcGy6Ed-om4tBcDDGRg" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_s_lwcWy6Ed-om4tBcDDGRg" name="net">
+      <packagedElement xmi:type="uml:Package" xmi:id="_s_lwcmy6Ed-om4tBcDDGRg" name="ssl">
+        <eAnnotations xmi:id="_s_mXgWy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd" references="_s_mXgGy6Ed-om4tBcDDGRg"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_s_mXgGy6Ed-om4tBcDDGRg" name="X509TrustManager" isAbstract="true">
+          <eAnnotations xmi:id="_s_mXgmy6Ed-om4tBcDDGRg" source="cyberduck/src/main/java/ch/cyberduck/core/ssl/ssl-i.ucd"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,10 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.gudy.azureusAPI
+Bundle-Name: ${project.name}
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *
+Provide-Package: org.gudy.azureus2.core3.download;specification-versio
+ n="0.0.0", com.aelitis.azureus.core.peermanager.messaging;specificati
+ on-versio="0.0.0"

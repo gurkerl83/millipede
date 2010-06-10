@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data
+END
+PieceInfoMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/PieceInfoMap.java
+END
+TorrentMetaInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/TorrentMetaInfo.java
+END
+MetaInfoFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/MetaInfoFile.java
+END
+Hash.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/Hash.java
+END
+PieceInfos.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/PieceInfos.java
+END
+InfoBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/InfoBlock.java
+END
+FileInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/FileInfo.java
+END
+BTPart.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/BTPart.java
+END
+InetSocketAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/torrent/internal/data/InetSocketAddress.java
+END

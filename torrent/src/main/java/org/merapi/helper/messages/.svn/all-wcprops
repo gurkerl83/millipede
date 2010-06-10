@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages
+END
+DLControlRespondMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/DLControlRespondMessage.java
+END
+DetailInfoMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/DetailInfoMessage.java
+END
+ListUpdateMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/ListUpdateMessage.java
+END
+BarUpdateRequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/BarUpdateRequestMessage.java
+END
+DLControlMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/DLControlMessage.java
+END
+BarUpdateRespondMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/BarUpdateRespondMessage.java
+END
+ConfigurationMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/12/trunk/millipede/torrent/src/main/java/org/merapi/helper/messages/ConfigurationMessage.java
+END

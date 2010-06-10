@@ -1,0 +1,10 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.gudy.azureusImpl
+Bundle-Name: ${project.name}
+Bundle-Activator: com.aelitis.azureus.core.impl.AzureusCoreImpl
+Excluded-Exports:
+ *.internal*
+Unversioned-Imports:
+ *
+Provide-Package: org.milipede.merapi.messages;specification-version="0.0.0
+ ", org.milipede.merapi.handlers;specification-version="0.0.0"

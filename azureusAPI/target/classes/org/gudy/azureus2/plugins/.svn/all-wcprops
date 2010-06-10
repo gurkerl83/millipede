@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins
+END
+PluginInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginInterface.java
+END
+PluginEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginEvent.java
+END
+PluginConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginConfig.java
+END
+PluginListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginListener.java
+END
+PluginEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginEventListener.java
+END
+PluginConfigListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginConfigListener.java
+END
+PluginException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/millipede/azureusAPI/src/main/java/org/gudy/azureus2/plugins/PluginException.java
+END

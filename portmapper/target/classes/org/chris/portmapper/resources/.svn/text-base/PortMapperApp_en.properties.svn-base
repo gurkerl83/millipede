@@ -1,0 +1,183 @@
+# $Id: PortMapperApp_en.properties 61 2009-08-15 14:58:46Z christoph $
+
+Application.id=PortMapper
+Application.title=PortMapper
+Application.version=@@VERSION_NUMBER@@
+Application.revision=@@SVN_REVISION_NUMBER@@
+
+Application.lookAndFeel=system
+
+mainFrame.title=${Application.title} ${Application.version}
+
+messages.error_getting_localhost_address=Could not retrieve address of local host.\nPlease use 'Add...' button to create a mapping\nand enter address of local host manually.
+messages.error=Error
+
+mainFrame.router.title=Router
+mainFrame.router.not_connected=(not connected)
+mainFrame.router.updating=(updating)
+mainFrame.router.external_address=External address
+mainFrame.router.internal_address=Internal address
+mainFrame.log_messages.title=Log messages
+mainFrame.port_mappings.title=Port mappings
+
+
+mainFrame.mappings.protocol=Protocol
+mainFrame.mappings.remote_host=Remote Host
+mainFrame.mappings.external_port=External Port
+mainFrame.mappings.internal_client=Internal Client
+mainFrame.mappings.internal_port=Internal Port
+mainFrame.mappings.description=Description
+
+mainFrame.port_mapping_presets.title=Port mapping presets
+
+# Actions
+
+mainFrame.showAboutDialog.Action.text=&About...
+mainFrame.showAboutDialog.Action.shortDescription=Show about dialog
+
+mainFrame.router.updateAddresses.Action.text=&Update
+mainFrame.router.updateAddresses.Action.shortDescription=Update router addresses
+
+mainFrame.router.info.Action.text=&Info
+mainFrame.router.info.Action.shortDescription=Display router information
+
+mainFrame.router.connect.Action.text=&Connect
+mainFrame.router.connect.Action.shortDescription=Connect to router
+
+mainFrame.router.disconnect.Action.text=&Disconnect
+mainFrame.router.disconnect.Action.shortDescription=Disconnect from router
+
+mainFrame.router.copyInternalAddress.Action.text=Copy
+mainFrame.router.copyInternalAddress.Action.shortDescription=Copy internal address of router to clipboard
+
+mainFrame.router.copyExternalAddress.Action.text=Copy
+mainFrame.router.copyExternalAddress.Action.shortDescription=Copy external address of router to clipboard
+
+mainFrame.mappings.update.Action.text=Update
+mainFrame.mappings.update.Action.shortDescription=Update port mappings
+
+mainFrame.mappings.remove.Action.text=&Remove
+mainFrame.mappings.remove.Action.shortDescription=Remove selected port mappings
+
+mainFrame.preset_mappings.create.Action.text=Create
+mainFrame.preset_mappings.create.Action.shortDescription=Create a new port mapping preset
+
+mainFrame.preset_mappings.edit.Action.text=Edit
+mainFrame.preset_mappings.edit.Action.shortDescription=Edit the selected port mapping preset
+
+mainFrame.preset_mappings.remove.Action.text=Delete
+mainFrame.preset_mappings.remove.Action.shortDescription=Delete the selected port mapping preset
+
+mainFrame.preset_mappings.use.Action.text=Use
+mainFrame.preset_mappings.use.Action.shortDescription=Use the selected port mapping preset
+
+mainFrame.portmapper.settings.Action.text=PortMapper Settings...
+mainFrame.portmapper.settings.Action.shortDescription=Edit the settings of UPnP PortMapper
+
+
+# About dialog
+
+about_dialog.close.Action.text=Close
+about_dialog.close.Action.shortDescription=Close about dialog
+
+about_dialog.title=About ${Application.title} ${Application.version}
+
+about_dialog.label1.text=${Application.title} Version ${Application.version} (revision ${Application.revision})
+about_dialog.label2.text=Manage port mappings of a router using Universal Plug and Play.
+about_dialog.label3.text=Created by Christoph Pirkl
+about_dialog.label4.text=Using the following libraries
+
+
+about_dialog.tooltip.click_here=Click here to open URL 
+about_dialog.tooltip.in_browser=in an external browser
+
+about_dialog.upnplib_label.label=SBBI UPNPLib
+about_dialog.upnplib_label.url=http://www.sbbi.net/site/upnp/
+about_dialog.upnplib_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.upnplib_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.weupnp_label.label=weupnp
+about_dialog.weupnp_label.url=http://code.google.com/p/weupnp/
+about_dialog.weupnp_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.weupnp_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.app_framework_label.label=Swing Application Framework
+about_dialog.app_framework_label.url=https://appframework.dev.java.net/
+about_dialog.app_framework_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.app_framework_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.one_jar_label.label=One-JAR
+about_dialog.one_jar_label.url=http://one-jar.sourceforge.net/
+about_dialog.one_jar_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.one_jar_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.log4j_label.label=log4j
+about_dialog.log4j_label.url=http://logging.apache.org/log4j/1.2/index.html
+about_dialog.log4j_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.log4j_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.miglayout_label.label=MiGLayout
+about_dialog.miglayout_label.url=http://www.miglayout.com/
+about_dialog.miglayout_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.miglayout_label.url} ${about_dialog.tooltip.in_browser}
+
+about_dialog.browserlauncher_label.label=BrowserLauncher2
+about_dialog.browserlauncher_label.url=http://browserlaunch2.sourceforge.net/
+about_dialog.browserlauncher_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.browserlauncher_label.url} ${about_dialog.tooltip.in_browser}
+
+
+about_dialog.label5.text=Visit our homepage at
+
+about_dialog.homepage_label.label=http://sourceforge.net/projects/upnp-portmapper/
+about_dialog.homepage_label.url=http://sourceforge.net/projects/upnp-portmapper/
+about_dialog.homepage_label.toolTipText=${about_dialog.tooltip.click_here} ${about_dialog.homepage_label.url} ${about_dialog.tooltip.in_browser}
+
+# Edit preset mapping dialog
+
+preset_dialog.title=Edit Port Mapping Preset
+
+preset_dialog.add_port.Action.text=Add
+preset_dialog.add_port.Action.shortDescription=Add a new port to list
+
+preset_dialog.remove_port.Action.text=Remove
+preset_dialog.remove_port.Action.shortDescription=Remove selected port from list
+
+
+preset_dialog.save.Action.text=Save
+preset_dialog.save.Action.shortDescription=Save the changed port mapping preset
+
+preset_dialog.cancel.Action.text=Cancel
+preset_dialog.cancel.Action.shortDescription=Do not save the changed port mapping preset
+
+preset_dialog.ports.title=Ports
+
+preset_dialog.ports.protocol=Protocol
+preset_dialog.ports.internal=Internal Port
+preset_dialog.ports.external=External Port
+
+preset_dialog.preset.text=Preset
+preset_dialog.protocol.text=Protocol
+preset_dialog.description.text=Description
+preset_dialog.protocol_tcp.text=TCP
+preset_dialog.protocol_udp.text=UDP
+preset_dialog.remote_host.text=Remote Host
+preset_dialog.remote_host_empty_for_all.text=(empty for all)
+preset_dialog.external_port.text=External Port
+preset_dialog.internal_client.text=Internal Client
+preset_dialog.internal_client_use_local_host.text=Use local host
+preset_dialog.internal_port.text=Internal Port
+
+
+preset_dialog.error.title=Error
+preset_dialog.error.invalid_host_name=Invalid host name '%s' given for %s.
+preset_dialog.error.unresolved_host_name=Host name '%s' could not be resolved for %s.
+preset_dialog.error.no_host_name_given=No host name given for %s.
+ 
+# Settings dialog
+
+settings_dialog.title=UPnP PortMapper Settings
+
+settings_dialog.save.Action.text=Save
+settings_dialog.save.Action.shortDescription=Save the settings
+
+settings_dialog.cancel.Action.text=Cancel
+settings_dialog.cancel.Action.shortDescription=Do not save the settings
+
+settings_dialog.use_entity_encoding.text=Use entity encoding for port mapping names
+
+settings_dialog.log_level.text=Log level
+settings_dialog.upnp_lib.text=UPnP library
